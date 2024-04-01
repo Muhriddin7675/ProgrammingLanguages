@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Programming Info</string>
+    <string name="descreption">Bu maqolamda hozirgi zamonda eng rivojlangan dasturlash tillaridan biri bo\'lgan C++ dasturlash tili haqida yozmoqchiman. Bu til tarixi va kelib c</string>
+    <string name="version_1_0_0">version 1.0.0</string>
+    <string name="programming_languages">Programming Languages</string>
+    <string name="all">All</string>
+    <string name="back">Back</string>
+</resources>

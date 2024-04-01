@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/splashScreen">
+
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="com.example.programminginfo.presentation.screen.SplashScreen"
+        android:label="SplashScreen" >
+        <action
+            android:id="@+id/action_splashScreen_to_screenMain"
+            app:destination="@id/screenMain"
+            app:popUpTo="@id/splashScreen"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/screenMain"
+        android:name="com.example.programminginfo.presentation.screen.ScreenMain"
+        android:label="ScreenMain" >
+        <action
+            android:id="@+id/action_screenMain_to_screenInfo"
+            app:destination="@id/screenInfo" />
+    </fragment>
+    <fragment
+        android:id="@+id/screenInfo"
+        android:name="com.example.programminginfo.presentation.screen.ScreenInfo"
+        android:label="ScreenInfo" >
+        <argument
+            android:name="data"
+            app:argType="com.example.programminginfo.data.InformationData" />
+    </fragment>
+</navigation>

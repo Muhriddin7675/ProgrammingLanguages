@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="coupon6_start">#03243D</color>
+    <color name="coupon7_end">#f292ed</color>
+    <color name="coupon7_start">#f36364</color>
+    <color name="coupon8_center">#5753c9</color>
+    <color name="coupon8_end">#6e7ff3</color>
+    <color name="coupon8_start">#3d4e81</color>
+    <color name="coupon9_center">#b8dcff</color>
+    <color name="coupon9_end">#6bbbff</color>
+    <color name="coupon9_start">#5d9fff</color>
+    <color name="dark_red">#1aef3b3b</color>
+</resources>

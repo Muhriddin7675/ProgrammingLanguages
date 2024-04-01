@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="200dp"
+    android:layout_height="280dp"
+    android:background="@color/coupon6_start"
+    android:padding="4dp">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/bg_item_color" />
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/nunito_extrabold"
+        android:text="C++"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/view"
+        app:layout_constraintStart_toStartOf="@id/view"
+        app:layout_constraintTop_toTopOf="@id/view" />
+
+    <TextView
+        android:id="@+id/text_descreption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/nunito_semi_bold"
+        android:maxLines="5"
+        android:text="@string/descreption"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="@id/view"
+        app:layout_constraintStart_toStartOf="@id/view"
+        app:layout_constraintTop_toBottomOf="@+id/text_name"
+        app:layout_constraintVertical_bias="0" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/kitob1"
+        android:backgroundTint="@color/white"
+        android:elevation="100dp"
+        android:src="@drawable/bg_cricli_image"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="@id/view"
+        app:layout_constraintEnd_toEndOf="@id/view"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="@id/view"
+        app:layout_constraintTop_toBottomOf="@id/view"
+        app:layout_constraintVertical_bias="0.566">
+
+        <ImageView
+            android:id="@+id/circleImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:src="@drawable/kitob1" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
