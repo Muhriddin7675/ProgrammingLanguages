@@ -1508,6 +1508,1325 @@ class AppRepositoryImpl @Inject constructor() : AppRepository {
                 "Work through extensive online training from Dart experts.\n" +
                 "Explore the API documentation that describes the Dart core libraries.\n" +
                 "Read a book about Dart programming."),
+        InformationData("VB.NET",R.drawable.ic_vbnet,"VB.NET is a simple, modern, object-oriented computer programming language developed by Microsoft to combine the power of .NET Framework and the common language runtime with the productivity benefits that are the hallmark of Visual Basic.\n" +
+                "\n" +
+                "Visual Basic .NET (VB.NET) is a multi-paradigm computer programming language implemented on the .NET Framework. Although it is an evolution of classic Visual Basic language, it is not backwards-compatible with VB6, and any code written in the old version does not compile under VB.NET.\n" +
+                "\n" +
+                "Like all other .NET languages, VB.NET has complete support for object-oriented concepts. Everything in VB.NET is an object, including all of the primitive types (Short, Integer, Long, String, Boolean, etc.) and user-defined types, events, and even assemblies. All objects inherit from the base class Object.\n" +
+                "\n" +
+                "VB.NET is implemented by Microsoft’s .NET framework. Therefore, it has full access to all the libraries in the .NET Framework. It’s also possible to run VB.NET programs on Mono, the open-source alternative to .NET, not only under Windows but even Linux or Mac OSX.\n" +
+                "\n" +
+                "The following reasons make VB.NET a widely used professional language:-\n" +
+                "\n" +
+                "1. Modern, general-purpose.\n" +
+                "\n" +
+                "2. Object-oriented.\n" +
+                "\n" +
+                "3. Component oriented.\n" +
+                "\n" +
+                "4. Easy to learn.\n" +
+                "\n" +
+                "5. Structured language.\n" +
+                "\n" +
+                "6. It produces efficient programs.\n" +
+                "\n" +
+                "7. It can be compiled on a variety of computer platforms.\n" +
+                "\n" +
+                "8. Part of .NET Framework.\n" +
+                "\n" +
+                "The .NET Framework\n" +
+                "\n" +
+                "The .NET framework is a revolutionary platform that helps you to write the following types of applications:-\n" +
+                "\n" +
+                "Windows applications\n" +
+                "Web applications\n" +
+                "Web services\n" +
+                "The .NET framework applications are multi-platform applications. The framework has been designed in such a way that it can be used from any of the following languages: Visual Basic, C#, C++, Jscript, and COBOL, etc.\n" +
+                "\n" +
+                "All these languages can access the framework as well as communicate with each other.\n" +
+                "\n" +
+                "Integrated Development Environment (IDE) For VB.NET\n" +
+                "\n" +
+                "Microsoft provides the following development tools for VB.NET programming:-\n" +
+                "\n" +
+                "Visual Studio 2010 (VS)\n" +
+                "Visual Basic 2010 Express (VBE)\n" +
+                "Visual Web Developer\n" +
+                "The last two are free. Using these tools, you can write all kinds of VB.NET programs from simple command-line applications to more complex applications. Visual Basic Express and Visual Web Developer Express edition are trimmed down versions of Visual Studio and has the same look and feel.\n" +
+                "\n" +
+                "Brief History:-\n" +
+                "\n" +
+                "1. VB.NET is a multi-paradigm programming language developed by Microsoft on the .NET framework. It was launched in 2002 as a successor to the Visual Basic language. This was the first version of VB.NET (VB.NET 7.0) and it relied on .NET version 1.0.\n" +
+                "\n" +
+                "2. In 2003, the second version of VB.NET, VB.NET 7.1, was released. This one relied on .NET version 1.1.\n" +
+                "\n" +
+                "3. In 2005, VB.NET 8.0 was released. The .NET core portion was dropped from its name so as to distinguish it from the classical Visual Basic language. This version was named Visual Basic 2005.\n" +
+                "\n" +
+                "4. In 2008, VB 9.0 was introduced. In 2010, Microsoft released VB 2010 (code 10.0).\n" +
+                "\n" +
+                "5. In 2012, VB 2012 (code 11.0) was release together with .NET 4.5.\n" +
+                "\n" +
+                "6. In 2015, VB 2015 (code 14.0) was released alongside Visual Studio 2015. The “?.” operator was introduced to do inline null checks.\n" +
+                "\n" +
+                "7. In 2017, VB 2017 (code 15.0) was introduced alongside Visual Studio 2017. A better way of organizing source code in just a single action was introduced.\n" +
+                "\n" +
+                "8. 2019 (VB 16.0) Visual Basic 2019 (code named VB “16.0”) was released with Visual Studio 2019. The first version of Visual Basic focused on .NET Core.\n" +
+                "\n" +
+                "Features:-\n" +
+                "\n" +
+                "1. VB.NET is not case sensitive like other languages such as C++ and Java.\n" +
+                "\n" +
+                "2. It is an object-oriented programming language. It treats everything as an object.\n" +
+                "\n" +
+                "3. Automatic code formatting, XML designer, improved object browser etc.\n" +
+                "\n" +
+                "4. Garbage collection is automated.\n" +
+                "\n" +
+                "5. Support for Boolean conditions for decision making.\n" +
+                "\n" +
+                "6. Simple Multithreading, allowing your apps to deal with multiple tasks simultaneously.\n" +
+                "\n" +
+                "7. Simple generics.\n" +
+                "\n" +
+                "8. A standard library.\n" +
+                "\n" +
+                "9. Events management.\n" +
+                "\n" +
+                "10. References. You should reference an external object that is to be used in a VB.NET application.\n" +
+                "\n" +
+                "11. Attributes, which are tags for providing additional information regarding elements that have been defined within a program.\n" +
+                "\n" +
+                "12. Windows Forms- you can inherit your form from an already existing form.\n" +
+                "\n" +
+                "New Features\n" +
+                "\n" +
+                "1. Assemblies\n" +
+                "\n" +
+                "An EXE or a DLL file that forms the basis of deployment, version control, reuse, and security permissions of an application.\n" +
+                "\n" +
+                "2. Namespaces\n" +
+                "\n" +
+                "The components of assemblies, namespaces primarily organize the objects present in the assemblies. An assembly can contain more than one namespace.\n" +
+                "\n" +
+                "3. Adding references\n" +
+                "\n" +
+                "You need to add a reference to the external object that you want to use in your current application.\n" +
+                "\n" +
+                "4. Attributes\n" +
+                "\n" +
+                "The tags that are used to provide additional information about the elements defined in a Visual Basic .NET program. Some of the most common uses of attributes are\n" +
+                "\n" +
+                "To explain COM properties for classes, interfaces, and methods:-\n" +
+                "\n" +
+                "To explain assemblies\n" +
+                "To specify security requirements of methods\n" +
+                "To specify features required to enforce security\n" +
+                "5. Inheritance\n" +
+                "\n" +
+                "Enables you to create classes that are derived from some other classes known as base classes. Inheritance provides you with the advantage of defining a class only once. You can then reuse this functionality by deriving new classes from this class.\n" +
+                "\n" +
+                "6. Windows Forms\n" +
+                "\n" +
+                "With a new forms package called Windows Forms, Visual Basic .NET allows the developers to inherit a form from an existing form.\n" +
+                "\n" +
+                "7. Structured exception handling\n" +
+                "\n" +
+                "Enables you to create a more efficient and robust error handlers by using structured exception handling, which allows you to detect and remove errors at runtime.\n" +
+                "\n" +
+                "8. Multithreading\n" +
+                "\n" +
+                "Enables your applications to handle multiple tasks simultaneously.\n" +
+                "\n" +
+                "Applications:-\n" +
+                "\n" +
+                "VB.NET can be used to create a wide range of applications and components, including the following:-\n" +
+                "\n" +
+                "1. Windows console mode applications\n" +
+                "\n" +
+                "2. Standard Windows applications\n" +
+                "\n" +
+                "3. Windows services\n" +
+                "\n" +
+                "4. Windows controls and Windows control libraries\n" +
+                "\n" +
+                "5. Web (ASP.NET) applications\n" +
+                "\n" +
+                "6. Web services\n" +
+                "\n" +
+                "7. Web controls and web control libraries\n" +
+                "\n" +
+                "8. .NET classes and name-spaces\n" +
+                "\n" +
+                "9. Accessing application object models (such as those of the individual applications in the Microsoft Office suite) using COM automation."),
+        InformationData("SQL",R.drawable.ic_sql,"SQL (pronounced either “es-cue-el” or “sequel”), which stands for Structured Query Language, is a versatile, open-source query language. It is used to write queries for managing data in structured, relational databases. Some call SQL the “lingua franca” of database management for its versatility, simplicity, and ability to organize and manage large amounts of data in a standardized, tabular format.\n" +
+                "\n" +
+                "Despite there being many alternatives, SQL remains the world’s most widely used database language. SQL forms the basis for next-generation database managers such as Oracle, MySQL, PostgreSQL and Microsoft T-SQL. For these reasons, SQL skills continue to be in high demand across almost all industries. It can be a key technology for developers, data architects, and data analysts. Even if they use other programs like Excel for data analysis, SQL skills are useful to retrieve the data from databases.\n" +
+                "\n" +
+                "70-461, 761: Querying Microsoft SQL Server with Transact-SQL\n" +
+                "Last Updated December 2023\n" +
+                "\n" +
+                "Bestseller 269 lectures Beginner Level  4.6 (16,029)\n" +
+                "From Tables and SELECT queries to advanced SQL. SQL Server 2012, 2014, 2016, 2017, 2019, and 2022 | By Phillip Burton, I Do Data Limited\n" +
+                "\n" +
+                "SQL: The standard for relational databases\n" +
+                "Since the early days of the Internet, SQL has been the world’s standard query language for creating and managing relational databases. These are data management systems built on a tabular format containing rows (or records) and columns (or fields) of individual data entries. \n" +
+                "\n" +
+                "SQL is a highly versatile programming language for managing databases and creating the schemas (structure) for structured databases. These databases consist of tables containing data, views, stored procedures containing SQL statements, and more. You can also use primary and foreign keys to create relationships among different tables. It can also be very scalable. Azure SQL Database has a hyperscale tier, which allows the data to increase up to 100 terabytes. \n" +
+                "\n" +
+                "These features make structured relational data models both powerful and versatile. They work across multiple platforms and operating systems, with predictable and reliable operations. This makes it easy for websites to retrieve and display a site and for search engines to recognize and understand the content.\n" +
+                "\n" +
+                "The history of SQL\n" +
+                "Structured data models are the most traditional form of data storage. They have been in use continuously since the creation of the earliest versions of database management systems. Since SQL is the query language behind most of those systems, it remains at the core of structured database management even today. \n" +
+                "\n" +
+                "IBM’s Edgar F. Codd defined the relational database model in 1969. Built on a system of “keys,” or common information among different pieces of data, this model led to IBM’s development of its SQL dialect. IBM tested the earliest version of SQL in 1978. Within a few years, this relatively simple language based on familiar English commands became the basis for a number of SQL-based products designed for relational database management. \n" +
+                "\n" +
+                "In the mid-1980s, the American National Standards Institute (ANSI) and the International Organization for Standardization (ISO) recognized SQL as the standard query language for managing any relational database management system, or RDBMS. They established standards for SQL providers to base their dialects on. These two standards have developed over the last few decades.\n" +
+                "\n" +
+                "Different companies have created a variety of proprietary SQL programs. They have not stuck to the SQL standards, but have augmented its functionality. These dialects have similarly evolved over the decades, taking some of the new features in the Standard SQL and introducing additional features. \n" +
+                "\n" +
+                "Top courses in SQL\n" +
+                "\n" +
+                "The two most popular dialects are both owned by Oracle. Oracle SQL is Oracle’s own version of SQL, which is expanded with the features in PL/SQL such as conditions and loops. MySQL is free and can manage SQL databases for a variety of purposes. It was originally created by Sun Microsystems, which Oracle bought in 2010.\n" +
+                "\n" +
+                "PostgreSQL is an advanced database management system operating on an advanced version of SQL. It has a procedural language of its own, called PL/pgSQL. Like other dialects, it adds its own syntax and a range of user-defined functions and query types.\n" +
+                "\n" +
+                "Transact-SQL (or TSQL) from Microsoft and Sybase includes a proprietary group of programming extensions adding new features to SQL. T SQL functions include not only modifications of standard SQL queries and statements but also a variety of user-defined functions and triggers. For more information, have a look at my Udemy article “SQL vs. T-SQL: How Do They Compare?” \n" +
+                "\n" +
+                "How do spreadsheets such as Excel compare to SQL?\n" +
+                "In a relational model, data is stored in databases in tables that have rows (or records) and columns (fields). In that way, relational database management systems are similar in structure and function to spreadsheet applications like Microsoft Excel, which organize data in workbooks, spreadsheets, rows, and columns. \n" +
+                "\n" +
+                "Excel can be efficient and easy to use for managing smaller data sets for single users. However, it lacks the scalability and speed for handling larger datasets or allowing multiple users to use it at the same time. Databases can manage far more structured data than standard spreadsheets can. They can scale to handle billions of rows in multiple tables that can connect through sets of common fields. Thousands or millions of users can access this data securely at the same time. For more differences, please see my Udemy article about the differences between Excel and SQL Server.\n" +
+                "\n" +
+                "If you are an Excel expert, then the good news is that you do not have to choose between Excel or SQL Server — you can use them with each other. For more about how they can work together, please see my Udemy article “How to Use SQL in Excel.”\n" +
+                "\n" +
+                "person sitting in office environment, with headphones, looking at computer screen\n" +
+                "What are the alternatives to traditional database systems?\n" +
+                "For years, structured data was the standard form for data storage, and SQL the standard querying language. With the advent of Web 2.0 and the rise of the Internet of Things, unstructured data from a multitude of internet apps and billions of constantly connected devices began to challenge the structured data model.\n" +
+                "\n" +
+                "Unstructured data or semi-structured data is a broad term for information that can’t be organized according to a predefined data model. Unstructured data includes documents, audio, image, and video files. Semi-structured data includes data that has a more defined data structure, but not necessarily one which is constant. This includes formats such as XML, JSON, and data that can be stored in Azure Cosmos DB, MongoDB, Cassandra, and graph format.\n" +
+                "\n" +
+                "For more about different types of database structures, have a look at my course “DP-900: Microsoft Azure Data Fundamentals.” In addition to relational data, this course looks at non-relational data on Azure, including Cosmos DB APIs, Table, Blob and File storage, together with analytics workloads and data visualization in Microsoft Power BI."),
+        InformationData("Perl",R.drawable.ic_perl,"Perl is a family of script programming languages that is similar in syntax to the C language. It is an older, open source, general use, interpreted language.\n" +
+                "\n" +
+                "Perl was developed with usability in mind. Its efficient design lets developers do a lot with a little bit of code. Its nickname is the \"Swiss Army chainsaw\" of the internet.\n" +
+                "\n" +
+                "Perl is simpler to learn and code with than more structured languages, such as C and C++. Nevertheless, the language is used to develop advanced programs. The language is often used to develop common gateway interface (CGI) programs because it has good text manipulation capabilities and the ability to deal with binary files.\n" +
+                "\n" +
+                "Design and features of Perl\n" +
+                "Perl includes popular Unix facilities, such as sed, awk and tr. As an interpreted language, code can run as is, and instructions are executed without first compiling the entire program into machine language instructions.\n" +
+                "\n" +
+                "However, Perl can be compiled before execution into C code or cross-platform bytecode. When compiled, a Perl program is almost as fast as a fully pre-compiled C language program. A plugin is available for some servers, such as Apache, loading Perl permanently in memory. This reduces compile time and results in faster execution time of CGI Perl script.\n" +
+                "\n" +
+                "Here are additional Perl features:\n" +
+                "\n" +
+                "Glue language. As a glue code language, Perl makes it easier for programmers to integrate otherwise incompatible interfaces and components. It features a database integration interface that supports third-party databases, like MySQL, Oracle, Postgres and Sybase.\n" +
+                "Embedding. Perl can be embedded in database servers and web servers.\n" +
+                "Text processing. It includes powerful text processing tools that enable it to work with markup languages, like Hypertext Markup Language and Extensible Markup Language.\n" +
+                "Perl syntax and code examples\n" +
+                "Like all programming languages, Perl follows a basic syntax for writing code. It contains keywords and variables for storing expressions and statements that execute the program's logic.\n" +
+                "\n" +
+                "A Perl program always begins with this line of code:\n" +
+                "\n" +
+                "#!/usr/bin/perl\n" +
+                "This is the shebang line. It lets the computer know that the following text will be Perl code and calls the Perl interpreter. Perl programs must pass through the interpreter to execute.\n" +
+                "\n" +
+                "After that, a user could write a basic \"Hi there, world!\" script:\n" +
+                "\n" +
+                "print \"Hi there, world!\\n\"\n" +
+                "The output would be the following:\n" +
+                "\n" +
+                "\"Hi there, world!\"\n" +
+                "\n" +
+                "Users could also declare a variable. In Perl, the variable is predefined by a variable indicator -- a \$, @ or %. These define the data type:\n" +
+                "\n" +
+                "Scalar data types, which store numbers, strings and references, are preceded by \$.\n" +
+                "Arrays, which store ordered lists of scalars, are preceded by @.\n" +
+                "Hashes, which store sets of Key-value pairs, are preceded by %.\n" +
+                "To declare a simple string, which is a scalar data type, \$ should be used:\n" +
+                "\n" +
+                "str = \"My name is Sam\";\n" +
+                "print \"str\\n\"\n" +
+                "Here, the output would be the following:\n" +
+                "\n" +
+                "\"My name is Sam\"\n" +
+                "\n" +
+                "Perl also has many special variables, which are denoted by altering the normal variable indicators, as shown in this list.\n" +
+                "\n" +
+                "An example of a more advanced program from Perl.org is below. This program sends an email using Perl script:\n" +
+                "\n" +
+                "#!/usr/bin/perl\n" +
+                "use strict;\n" +
+                "use warnings;\n" +
+                "# create the email message\n" +
+                "use Email::MIME;\n" +
+                "my note = Email::MIME->create(\n" +
+                "  header_str => [\n" +
+                "    From    => 'bill@fakeemail.com',\n" +
+                "    To      => 'ted@fakeemail.com',\n" +
+                "    Subject => 'Happy New Year!',\n" +
+                "  ],\n" +
+                "  attributes => {\n" +
+                "    encoding => 'quoted-printable',\n" +
+                "    charset  => 'ISO-8859-1',\n" +
+                "  },\n" +
+                "  body_str => \"Wishing you a very happy New Year!\\n\",\n" +
+                ");\n" +
+                "# send the email\n" +
+                "use Email::Sender::Simple qw(sendmail);\n" +
+                "sendmail(note);\n" +
+                "Pros and cons of using Perl\n" +
+                "Perl has several advantages, as well as some disadvantages.\n" +
+                "\n" +
+                "Advantages\n" +
+                "Perl's advantages include the following:\n" +
+                "\n" +
+                "Options. Users have a lot of alternatives in how they write a program or solve a problem using Perl.\n" +
+                "Flexible. The language's design and syntax let users code using their own programming style.\n" +
+                "Open source. Perl is free for anyone to access, develop and use on a variety of platforms.\n" +
+                "Availability. It is pre-installed in many places, and more than 25,000 Perl modules are available on the Comprehensive Perl Archive Network. It is also implemented on most operating systems.\n" +
+                "Disadvantages\n" +
+                "Perl's major disadvantage is that it's a relatively messy language in a number of ways:\n" +
+                "\n" +
+                "Hard to read. Some developers claim Perl is difficult to read and less streamlined than newer languages, like Python. Because there many ways to write a Perl program, it can lead to disorganized, untidy code.\n" +
+                "Difficult to debug. Because Perl code can be obscure or messy, debugging and fixing problems can be difficult.\n" +
+                "Performance flaws. The same flexibility that benefits Perl users can also cause it to be slow. That's because this flexibility can lead to inefficiencies and redundancy taking it longer to compile.\n" +
+                "Perl vs. Python\n" +
+                "Perl and Python have a shared history. Both were invented to simplify scripting. Perl was developed to give a C-like structure to Unix scripts. Python was invented to make C simpler and ready to script with.\n" +
+                "\n" +
+                "Perl and Python are similar syntactically, and translating from Perl to Python is relatively easy with a few major syntax changes.\n" +
+                "\n" +
+                "However, here are four key differences:\n" +
+                "\n" +
+                "Lines written in Perl end in a semicolon.\n" +
+                "Perl contains curly braces and indentation; Python does not.\n" +
+                "Variable names in Perl are styled using a variable indicator, like x, %x and x. Variable names in Python are styled without a variable indicator, like x.\n" +
+                "The print statement in Python adds a new line at the end of output.\n" +
+                "Perl vs. Python code example\n" +
+                "These code examples show the syntactical differences between Python and Perl. One of the most notable is the use of \$ to indicate the data type of a variable.\n" +
+                "Other differences include the following:\n" +
+                "\n" +
+                "Perl can be messy, and Python is more streamlined.\n" +
+                "There are many ways to do things in Perl, whereas Python is designed to provide one clear path to any given function.\n" +
+                "Python is easier to read than Perl.\n" +
+                "Python is considered one of the best coding languages to learn and one of the easiest for novice developers.\n" +
+                "Python is a newer language than Perl.\n" +
+                "Perl is integrated with web application source code.\n" +
+                "Python has a reputation as a dynamic programming language with a broad array of applications -- from web development to machine learning -- making it a popular language.\n" +
+                "The open source developer community is more supportive of Python.\n" +
+                "\n" +
+                "History and future of Perl\n" +
+                "Programmer Larry Wall created the first version of Perl in 1987. Perl was originally said to stand for \"Practical Extraction and Reporting Language,\" but that name is no longer used. Wall prefers to use \"Perl\" for the language itself and \"perl\" for any interpreter or compiler of the language.\n" +
+                "\n" +
+                "Perl 5 first became available in 1994. The latest stable version of Perl is 5.34.0, according to Perl.org.\n" +
+                "\n" +
+                "Perl 6 is rooted in the same ancestor language as Perl 5 but is a separate programming language. It has its own design team of open source volunteers.\n" +
+                "\n" +
+                "The Perl 6 project began after the 2000 Perl Conference, but the first official version of the language, version 6.c, wasn't available until December 2015. Perl 6 was renamed Raku in 2019.\n" +
+                "\n" +
+                "Today, Perl refers to Perl 5. Work on Perl 7 began in 2020. It is expected to be available in 2021.\n" +
+                "\n" +
+                "Learn more about Perl and four other programming languages that are still influential but are likely to be obsolete in the next decade.\n" +
+                "\n" +
+                "This was last updated in November 2021\n" +
+                "Continue Reading About Perl\n" +
+                "The functional programming paradigm at enterprise scale\n" +
+                "Why Java devs should switch to Python or R for data science\n" +
+                "Choose the best programming language for DevOps workflows\n" +
+                "Don't struggle to learn new programming languages\n" +
+                "What is the difference between Python and Ruby?\n" +
+                "Related Terms\n" +
+                "change control\n" +
+                "Change control includes the various steps needed to process changes made to a product or system. Completion of change controls in... See complete definition\n" +
+                "entity relationship diagram (ERD)\n" +
+                "An entity relationship diagram (ERD), also known as an 'entity relationship model,' is a graphical representation that depicts ... See complete definition\n" +
+                "RFM analysis (recency, frequency, monetary)\n" +
+                "RFM analysis is a marketing technique used to quantitatively rank and group customers based on the recency, frequency and ... See complete definition"),
+        InformationData("Assembly Language",R.drawable.ic_assembly,"An assembly language is a type of low-level programming language that is intended to communicate directly with a computer’s hardware. Unlike machine language, which consists of binary and hexadecimal characters, assembly languages are designed to be readable by humans.\n" +
+                "1\n" +
+                "\n" +
+                "Low-level programming languages such as assembly language are a necessary bridge between the underlying hardware of a computer and the higher-level programming languages—such as Python or JavaScript—in which modern software programs are written.\n" +
+                "\n" +
+                "KEY TAKEAWAYS\n" +
+                "An assembly language is a type of programming language that translates high-level languages into machine language.\n" +
+                "It is a necessary bridge between software programs and their underlying hardware platforms.\n" +
+                "Assembly language relies on language syntax, labels, operators, and directives to convert code into usable machine instruction.\n" +
+                "Assembly language may pass through single-pass or multi-pass assemblers, each with specific uses and benefits.\n" +
+                "Today, assemble languages are rarely written directly, although they are still used in some niche applications such as when performance requirements are particularly high.\n" +
+                "How Assembly Languages Work\n" +
+                "Fundamentally, the most basic instructions executed by a computer are binary codes, consisting of ones and zeros. Those codes are directly translated into the “on” and “off” states of the electricity moving through the computer’s physical circuits. In essence, these simple codes form the basis of “machine language,” the most fundamental variety of programming language.\n" +
+                "2\n" +
+                "\n" +
+                "Of course, no human would be able to construct modern software programs by explicitly programming ones and zeros. Instead, human programmers must rely on various layers of abstraction that can allow themselves to articulate their commands in a format that is more intuitive to humans.\n" +
+                "\n" +
+                "Specifically, modern programmers issue commands in so-called “high-level languages,” which utilize intuitive syntax such as whole English words and sentences, as well as logical operators such as “and,” “or,” and  “else” that are familiar to everyday usage.\n" +
+                "\n" +
+                "\n" +
+                "Ultimately, however, these high-level commands need to be translated into machine language. Rather than doing so manually, programmers rely on assembly languages whose purpose is to automatically translate between these high-level and low-level languages. The first assembly languages were developed in the 1940s, and though modern programmers and modern natural language processors spend very little time dealing with assembly languages, they nevertheless remain essential to the overall functioning of a computer.\n" +
+                "3\n" +
+                "\n" +
+                "During the early days of computing, systems programming and application programming would both take place entirely in assembly language. Without assembly languages, many modern computers and higher-level languages we use today would not have been possible.\n" +
+                "Components of Assembly Language\n" +
+                "Syntax\n" +
+                "When writing any code in any program language, there is an observable, specific order of rules that must be followed to allow a compiler to execute the code without error.\n" +
+                "4\n" +
+                " These rules are defined as the syntax, and they contain criteria such as the maximum number of allowable characters, what characters code lines must start with, or what certain symbols \"i.e. a semi-colon\" means.\n" +
+                "\n" +
+                "Label\n" +
+                "A label is a symbol that represents the address where an instruction or data is stored. It's purpose is to act as the destination when referenced in a statement. Labels can be used anywhere an address can be used in assembly languages.\n" +
+                "4\n" +
+                " A symbolic label consists of an identifier followed by a colon, while numeric labels consist of a single digital followed by a colon.\n" +
+                "\n" +
+                "Operators\n" +
+                "Also referred to as commands, operators are logical expressions that occur after the label field. In addition, it must be preceded by at least one white-space character. Operators can either be opcode or directive. Opcode correspond directly to machine instructions, and the operation code includes any register name associated with the instruction. Alternatively, directive operation codes are instructions known by the assembler.\n" +
+                "4\n" +
+                "\n" +
+                "Directive\n" +
+                "Directives are instructions to the assembler that tell what actions must take place during the assembly process.\n" +
+                "5\n" +
+                " Directives have the importance of declaring or reserving memory for variables; these variables can be recalled later in processes to perform more dynamic functions. Directives are also used to break programs into different sections.\n" +
+                "6\n" +
+                "\n" +
+                "Macro\n" +
+                "An assembly language macro is a template shoe format presents a series or pattern of statements. This sequence of assembly language statements might be common to multiple different programs. A macro facility is used to interpret macro definitions, while a macro call is inserted into the source code where \"normal\" assembly code would have gone instead of the macro set of statements.\n" +
+                "5\n" +
+                "\n" +
+                "Mnemonic\n" +
+                "A mnemonic is an abbreviation for an operation. A mnemonic is entered into the operation code for each assemble program instruction to specify a shortened \"opcode\" that represents a larger, complete set of codes. For example, the mnemonic \"multiply by two\" has a full set of code that carries out the mnemonic.\n" +
+                "4\n" +
+                "\n" +
+                "High-Frequency Trading\n" +
+                "Today, assembly languages remain the subject of study by computer science students, in order to help them understand how modern software relates to its underlying hardware platforms. In some cases, programmers must continue to write in assembly languages, such as when the demands on performance are especially high, or when the hardware in question is incompatible with any current high-level languages.\n" +
+                "\n" +
+                "One such example that is relevant to finance are the high-frequency trading (HFT) platforms used by some financial firms. In this marketplace, the speed and accuracy of transactions is of paramount importance in order for the HFT trading strategies to prove profitable. Therefore, in order to gain an edge against their competitors, some HFT firms have written their trading software directly in assembly languages, thereby making it unnecessary to wait for the commands from a higher-level language to be translated into machine language.\n" +
+                "\n" +
+                "Many believe assembly languages have the steepest learning curves and are the most difficult computing languages to learn.\n" +
+                "\n" +
+                "Advantages and Disadvantages of Assembly Language\n" +
+                "Assembly language can usually be executed faster than high level languages. It's relatively easy to insert of delete components of assembly language code, and assembly language usually requires fewer instructions to complete a task when compared against other types of languages.\n" +
+                "\n" +
+                "Assembly languages are also often used by programmers wanting greater control over their computers as assembly languages allow you to directly manipulate your hardware. Because of its speed and importance, some programs are specifically written using assembly language as the code can usually remain smaller.\n" +
+                "\n" +
+                "Assembly languages do tend to have several drawbacks. Long programs written using assembly language usually require heavier computing power and can not be run on small computers. Some may find the syntax of assembly language more difficult to remember, and it may take some longer to code using assembly language as it is more complex. In addition, assembly language is usually not portable between different makes of different computers; similar to how employee benefits are lost when switching companies, languages cannot be seamlessly translated to different computers.\n" +
+                "\n" +
+                "Pros\n" +
+                "Execution may be more simple compared to other languages\n" +
+                "\n" +
+                "Execution is usually faster compared to other languages\n" +
+                "\n" +
+                "Allows for direct control over hardware\n" +
+                "\n" +
+                "Code may remain smaller compared to other languages\n" +
+                "\n" +
+                "Cons\n" +
+                "Programming may be more challenging to pick up compared to high-level languages\n" +
+                "\n" +
+                "Syntax of assembly languages is difficult\n" +
+                "\n" +
+                "Not portable between machines\n" +
+                "\n" +
+                "Types of Assemblers\n" +
+                "Assembly language must be translated into machine language using an assembler. There are two primary types of assemblers.\n" +
+                "\n" +
+                "A single-pass assembler scans a program one time and makes an equivalent binary program. This type of assembler validates assembly language code by looking the code up in a mnemonic code table. A single-pass assembler is often faster than a multi-pass assembler, and there is usually no need to construct any intermediate code.\n" +
+                "\n" +
+                "A multi-pass assembler means the assembler uses more than one pass. Multi-pass assemblers create a table with every symbol and each of their values in the first pass, then use the table in future passes to generate new code. Each separate pass usually handles a different specific task. Though usually slower, multi-pass assemblers with modular structures can often be reused for different machines.\n" +
+                "\n" +
+                "Example of Assembly Language Code\n" +
+                "Below is an example of Netwide Assembler (NASM) assembly language code.\n" +
+                "7\n" +
+                "\n" +
+                "Example of Assembly Language Code\n" +
+                "Example of Assembly Language Code.\n" +
+                "Loyola Marymount University\n" +
+                "\n" +
+                "In this example, the SYSCALL instruction towards the end of the code triggers the portion of memory where the operating system services are stored. Then, the code RAX is used to call for code to be written, then RDI to exit. The SYSCALL function is used twice to invoke the operating system as well as to indicate to the system when the code is finished and it is time to exit.\n" +
+                "\n" +
+                "What Is an Example of an Assembly Language?\n" +
+                "The most commonly used assembly languages include ARM, MIPS, and x86.\n" +
+                "\n" +
+                "Is C++ an Assembly Language?\n" +
+                "C++ is not comprised of assembly code. The C++ computing language consists of C++ code which a compiler translates into an executable machine code.\n" +
+                "8\n" +
+                "\n" +
+                "Is Python an Assembly Language?\n" +
+                "Python is more advanced than assembly languages. Assembly languages are considered a low level language, while high-level languages such as C, Java, or Python use 0's and 1's instead of numbers, symbols, and abbreviations.\n" +
+                "\n" +
+                "How Are Assembly Languages Used Today?\n" +
+                "Though considered lower level languages compared to more advanced languages, assembly languages are still used. Assembly language is used to directly manipulate hardware, access specialized processor instructions, or evaluate critical performance issues. These languages are also used to leverage their speed advantage over high level languages for time-sensitive activities such as high frequency trading.\n" +
+                "\n" +
+                "The Bottom Line\n" +
+                "Assembly language is low-level code that relies on a strong relationship between the instructions input using the coding language and how a machine interprets the code instructions. Code is converted into executable actions using an assembler that converts input into recognizable instructions for the machine. Though prevalent in the early days of computing, many larger systems use higher-level languages.\n" +
+                "\n" +
+                "SPONSORED\n" +
+                "Discover Your Inner Trader\n" +
+                "Open a risk-free demo and practise CFD trading across a wide range of markets. Get advanced tech, with smart charts and price alerts, and 24/7 support in case you need help."),
+        InformationData("MATLAB",R.drawable.ic_matlab,"MATLAB is a high-performance language for technical computing. It integrates computation, visualization, and programming in an easy-to-use environment where problems and solutions are expressed in familiar mathematical notation. Typical uses include:\n" +
+                "Math and computation\n" +
+                "Algorithm development\n" +
+                "Modeling, simulation, and prototyping\n" +
+                "Data analysis, exploration, and visualization\n" +
+                "Scientific and engineering graphics\n" +
+                "Application development, including Graphical User Interface building\n" +
+                "MATLAB is an interactive system whose basic data element is an array that does not require dimensioning. This allows you to solve many technical computing problems, especially those with matrix and vector formulations, in a fraction of the time it would take to write a program in a scalar noninteractive language such as C or Fortran.\n" +
+                "The name MATLAB stands for matrix laboratory. MATLAB was originally written to provide easy access to matrix software developed by the LINPACK and EISPACK projects, which together represent the state-of-the-art in software for matrix computation.\n" +
+                "MATLAB has evolved over a period of years with input from many users. In university environments, it is the standard instructional tool for introductory and advanced courses in mathematics, engineering, and science. In industry, MATLAB is the tool of choice for high-productivity research, development, and analysis.\n" +
+                "MATLAB features a family of application-specific solutions called toolboxes. Very important to most users of MATLAB, toolboxes allow you to learn and apply specialized technology. Toolboxes are comprehensive collections of MATLAB functions (M-files) that extend the MATLAB environment to solve particular classes of problems. Areas in which toolboxes are available include signal processing, control systems, neural networks, fuzzy logic, wavelets, simulation, and many others.\n" +
+                "The MATLAB System\n" +
+                "\n" +
+                "The MATLAB system consists of five main parts:\n" +
+                "The MATLAB language.\n" +
+                "This is a high-level matrix/array language with control flow statements, functions, data structures, input/output, and object-oriented programming features. It allows both \"programming in the small\" to rapidly create quick and dirty throw-away programs, and \"programming in the large\" to create complete large and complex application programs.\n" +
+                "The MATLAB working environment.\n" +
+                "This is the set of tools and facilities that you work with as the MATLAB user or programmer. It includes facilities for managing the variables in your workspace and importing and exporting data. It also includes tools for developing, managing, debugging, and profiling M-files, MATLAB's applications.\n" +
+                "Handle Graphics.\n" +
+                "This is the MATLAB graphics system. It includes high-level commands for two-dimensional and three-dimensional data visualization, image processing, animation, and presentation graphics. It also includes low-level commands that allow you to fully customize the appearance of graphics as well as to build complete Graphical User Interfaces on your MATLAB applications.\n" +
+                "The MATLAB mathematical function library.\n" +
+                "This is a vast collection of computational algorithms ranging from elementary functions like sum, sine, cosine, and complex arithmetic, to more sophisticated functions like matrix inverse, matrix eigenvalues, Bessel functions, and fast Fourier transforms.\n" +
+                "The MATLAB Application Program Interface (API).\n" +
+                "This is a library that allows you to write C and Fortran programs that interact with MATLAB. It include facilities for calling routines from MATLAB (dynamic linking), calling MATLAB as a computational engine, and for reading and writing MAT-files."),
+        InformationData("Classic Visual Basic",R.drawable.ic_visual_bacik,"n a realm saturated with programming languages, one might ask, \"What is Visual Basic?\" Originating from Microsoft, VB offers a unique blend of rich history and user-centric design. Its intuitive 'drag-and-drop' interface has revolutionised Windows application development, making programming accessible for many. Beyond its visual prowess, VB introduced event-driven programming and an Integrated Development Environment (IDE) that further streamlined the creation process.  \n" +
+                "\n" +
+                "According to Statista, VB is preferred by 4.07% developers across the world in 2023. Today, while newer languages have emerged, the legacy and relevance of VB continue to influence the software world. If you wish to find the answer to “What is Visual Basic?\" then keep reading further.  \n" +
+                "\n" +
+                "Table of Contents \n" +
+                "\n" +
+                "1) The genesis of Visual Basic \n" +
+                "\n" +
+                "2) Core features of Visual Basic \n" +
+                "\n" +
+                "3) The evolution: From VB to VB.NET \n" +
+                "\n" +
+                "4) Practical applications of Visual Basic \n" +
+                "\n" +
+                "5) Is Visual Basic relevant today? \n" +
+                "\n" +
+                "6) Conclusion \n" +
+                "\n" +
+                "The genesis of Visual Basic \n" +
+                "Visual Basic (VB) emerged from a need perceived by Microsoft: To make the art of programming more intuitive and accessible. The name \"Visual Basic\" encapsulates its essence—combining the simplicity of BASIC, a beginner-friendly programming language, with a graphical interface optimised for the Windows Operating System. This section of the blog will guide you through the journey of programming language paradigms and how they’ve changed over the years: \n" +
+                "\n" +
+                "Traditional programming \n" +
+                "The programming landscape was somewhat less forgiving than it is today. Developers were accustomed to writing long, often convoluted lines of code. The process was predominantly linear, meaning that once you wrote your code, you'd have to wait until the very end, after compilation, to get any visual or interactive feedback. This approach could be tedious, especially for complex applications, as the lack of real-time visual feedback made troubleshooting and design iteration cumbersome. \n" +
+                "\n" +
+                "The dawn of a new era: Birth of VB \n" +
+                "Microsoft, recognising the need for a more interactive and visual approach to software creation, unveiled Visual Basic. This was no minor update or iteration of an existing tool; it was a paradigm shift. VB introduced the revolutionary 'drag-and-drop' interface, forever altering the dynamics of application design. Rather than solely relying on abstract code to define User Interfaces, developers could now use VB to visually craft their application layouts.  \n" +
+                "\n" +
+                "Elements like buttons, text boxes, and sliders could be placed on a canvas in a manner reminiscent of arranging assets on a digital design platform or a presentation slide. Not only did this make the design process more intuitive, but it also dramatically reduced development time, as immediate visual feedback allowed for rapid adjustments. \n" +
+                "\n" +
+                "Interested in Object Oriented Programming? Try our Visual Basic for Applications VBA Training! \n" +
+                "\n" +
+                "Core features of Visual Basic \n" +
+                "VB is renowned for its ease of use and visual capabilities, but its depth extends well beyond that surface appeal. Its robust architecture and versatility stem from an array of fundamental features that have stood the test of time: \n" +
+                "\n" +
+                "1) Event-driven programming: Among its many features, VB's most pronounced is its deep-rooted support for event-driven programming. This programming paradigm is centred on the principle that actions (code executions) are driven by events, such as user actions or system prompts.  \n" +
+                "\n" +
+                "2) Take a button click in a software application: VB developers can seamlessly associate a specific action, like displaying a message, to this event. The result? Coding that's both intuitive and directly correlated to user interactions, streamlining both development and the end-user experience. \n" +
+                "\n" +
+                "3) Integrated Development Environment (IDE): A programmer's toolkit is crucial to their efficiency and VB offers one of the most comprehensive out there. The Visual Basic IDE is not just a code editor; it's a full-fledged environment where developers can write code, design interfaces, test functionality, and debug issues. Complete with visual aids, drag-and-drop features, and real-time feedback, VB's IDE epitomises a one-stop-shop for Windows application development. \n" +
+                "\n" +
+                "4) Rich library: An essential part of a programmer's workflow involves reusing code segments to streamline the development process. Recognising this, Microsoft equipped VB with an exhaustive library of predefined functions and routines. From mathematical calculations to string manipulations, this library accelerates the development process, offering developers a treasure trove of ready-to-implement solutions. \n" +
+                "\n" +
+                "5) Strong integration with windows: Given its inception as a tool tailored for Windows, VB boasts seamless integration with the OS. This ensures that applications developed with VB are inherently optimised for the Windows ecosystem, be it interfacing with Windows APIs or utilising system resources efficiently. \n" +
+                "\n" +
+                "6) ActiveX support: Another feather in VB's cap is its support for ActiveX components. This allows developers to not only create but also use ActiveX controls, DLLs, and even integrate with other applications that support COM (Component Object Model) standards. \n" +
+                "\n" +
+                "7) Database connectivity: In the modern era, software applications often require data storage and retrieval capabilities. VB facilitates easy connectivity with databases, leveraging technologies like ActiveX Data Objects (ADO) or Data Access Objects (DAO), making it straightforward to create data-driven applications. \n" +
+                "\n" +
+                "Interested in coding game mechanics? Try our Lua Programming Language Training! \n" +
+                "\n" +
+                "The evolution: From VB to VB.NET \n" +
+                "The evolution of Visual Basic is a fascinating journey of technological advancements, adapting to changing paradigms, and meeting the ever-evolving needs of developers. A pivotal chapter in this saga is the transition from the classic Visual Basic to its modern-day counterpart, VB.NET. \n" +
+                " \n" +
+                "\n" +
+                "The evolution From VB to VB.NET\n" +
+                " \n" +
+                "\n" +
+                "Embracing the .NET framework \n" +
+                "The dawn of the 21st century was marked by a watershed moment in Microsoft's software development narrative - the advent of the .NET framework. This revolutionary platform was envisioned as the next big leap, providing a cohesive, integrated environment for developing both web-centric and Windows-centric applications. Visual Basic, with its established legacy, was prime for adaptation into this new age. The outcome of this was VB.NET, a version of Visual Basic reimagined, redesigned, and reborn to be in perfect harmony with the .NET ecosystem. \n" +
+                "\n" +
+                "Stepping into the world of OOP \n" +
+                "While the classic Visual Basic offered some object-oriented features, it was primarily a procedural programming language. VB.NET, on the other hand, embraced Object-Oriented Programming (OOP) wholeheartedly. This shift was monumental. With VB.NET, developers could leverage the full gamut of OOP principles – from inheritance and polymorphism to encapsulation and abstraction. This transformative change not only enhanced the versatility of VB.NET but also placed it shoulder to shoulder with other prominent OOP languages, especially its .NET sibling, C#. \n" +
+                "\n" +
+                "Treading the compatibility waters \n" +
+                "Evolution often comes with its set of challenges, and for VB.NET, a prominent challenge was its compatibility with its predecessor. While VB.NET symbolised progress and modernity, it also drew a clear line of demarcation from the classic Visual Basic.  \n" +
+                "\n" +
+                "Developers transitioning to VB.NET had to be cognisant of this reality: codebases constructed in classic VB were not readily portable to VB.NET. Although the syntax and core constructs had parallels, the underlying architectures were distinct, necessitating modifications, and sometimes overhauls, for older VB projects to be functional in the VB.NET environment. \n" +
+                "\n" +
+                "Richer standard library \n" +
+                "VB.NET, being a part of the .NET framework, benefited from the .NET Base Class Library (BCL). This expansive library provided a vast array of pre-defined classes and methods, greatly expanding the functionalities developers could tap into. From data access to network communications, the BCL empowered VB.NET developers with tools and functions that went beyond what classic VB offered. \n" +
+                "\n" +
+                "Interested in data modelling? Why not try our Delphi Course! \n" +
+                "\n" +
+                "Practical applications of Visual Basic \n" +
+                "The legacy of Visual Basic (VB) stands as a testament to its adaptability, efficiency, and user-centric design. Over the decades, its impact and imprint can be observed in a multitude of sectors, underscoring its broad-based appeal and proficiency. Let's journey through some of the key domains where VB has left an indelible mark:\n" +
+                " \n" +
+                "\n" +
+                "Practical applications of Visual Basic\n" +
+                " \n" +
+                "\n" +
+                "Visual Basic in desktop applications \n" +
+                "At its core, Visual Basic was conceived with the vision of simplifying and democratising Windows desktop application development. This vision was realised to its fullest. From creating elementary tools, such as calculators and notepads, to architecting advanced systems like CRM software or intricate database management platforms, VB's footprint is widespread.  \n" +
+                "\n" +
+                "Its user-friendly 'drag-and-drop' interface, complemented by a robust backend, empowered developers to translate their visions into functional tools with minimal friction, making the entire development lifecycle smoother and more intuitive. \n" +
+                "\n" +
+                "Visual Basic in business software \n" +
+                "The corporate world, with its myriad challenges and dynamic needs, found a reliable ally in Visual Basic. Businesses, irrespective of their scale, leveraged VB's prowess to design bespoke solutions tailored to their unique requirements. Inventory management became streamlined with VB-powered systems that tracked stock levels and forecasted demand.  \n" +
+                "\n" +
+                "Financial departments benefited from customised software that could handle complex calculations, generate reports, and maintain ledgers. Point of sale systems, crafted using VB, offered retailers an efficient mechanism to manage sales and inventory in real-time. One of VB's standout attributes in this domain was its capability to seamlessly interface with various databases, enabling businesses to handle vast volumes of data with ease and reliability. \n" +
+                "\n" +
+                "Visual Basic in games \n" +
+                "The realm of gaming, traditionally dominated by specialised languages and engines, witnessed an unexpected player in the form of Visual Basic. While VB might not have been the primary tool for AAA game titles, its ease of use and quick development cycles made it an attractive choice for indie developers and hobbyists. From puzzle games to strategy simulations, Visual Basic provided the canvas for creators to paint their gaming visions. Its ability to handle graphics, sound, and user interactions ensured that games developed using VB, though simpler compared to blockbuster titles, offered a compelling and enjoyable experience. \n" +
+                "\n" +
+                "Interested in Big Data solutions? Try our Clojure Programming Language Training! \n" +
+                "\n" +
+                "Is Visual Basic relevant today? \n" +
+                "In the rapidly evolving world of Software Development, where new programming languages and tools are unveiled frequently, one might wonder about the continued relevance of older languages like Visual Basic (VB). However, VB, with its storied history, still holds its ground today for several compelling reasons: \n" +
+                "\n" +
+                "Legacy systems \n" +
+                "A vast swathe of the corporate ecosystem, particularly organisations that blossomed during the earlier tech revolutions, heavily rely on infrastructure developed with VB. These aren't just rudimentary applications; they are often intricate, complex systems that serve as the backbone of day-to-day operations. Maintaining operational integrity, troubleshooting issues, and implementing incremental upgrades on these systems require an in-depth knowledge of VB. As a result, professionals proficient in this language remain in demand, ensuring VB's continued importance in many enterprise environments. \n" +
+                "\n" +
+                "Rapid Application Development (RAD) \n" +
+                "In a world where agility is prised, the need for swift development cycles has never been more pressing. VB, renowned for its RAD capabilities, is uniquely positioned to address this demand. Through its visual interface and 'drag-and-drop' functionalities, developers can quickly visualise, iterate, and deploy applications. This accelerated turnaround, from ideation to execution, renders VB an invaluable asset for businesses that prioritise rapid response to evolving market needs or internal requirements. \n" +
+                "\n" +
+                "Education and training \n" +
+                "VB's influence isn't confined solely to corporate or professional spheres; it casts a wide net encompassing academia and training institutes. One of VB's enduring strengths lies in its approachability. Its syntax is less convoluted than many other languages, and its visual nature provides immediate feedback, making it easier for beginners to link code with outcomes.  \n" +
+                "\n" +
+                "For students embarking on their programming journey, VB acts as a gentle introduction, facilitating a smoother transition into more complex coding languages later. Educational curriculums across the globe, recognising this advantage, incorporate VB as a foundational course, ensuring that the language continues to inspire and educate budding developers. \n" +
+                "\n" +
+                "Integration capabilities \n" +
+                "Beyond its inherent features, VB's ability to integrate with other systems and platforms further amplifies its relevance. Be it databases, web services, or third-party tools, VB's robust integration frameworks ensure that it can function harmoniously within heterogeneous tech environments, making it a versatile choice for varied projects. \n" +
+                " \n" +
+                "\n" +
+                "Visual Basic For Applications VBA Training\n" +
+                " \n" +
+                "\n" +
+                "Conclusion \n" +
+                "As we conclude this blog on What is Visual Basic, its definition can be summed up as a Microsoft innovation that reshaped software development. VB has made it more intuitive and accessible for beginners. Its legacy as a pioneer in visual programming endures despite the evolution of newer coding languages. \n" +
+                "\n" +
+                "Interested in languages like Java and C++? Try our Object-Oriented Fundamentals Training! "),
+        InformationData("SAS",R.drawable.ic_sas,"SAS is a command-driven statistical software suite widely used for statistical data analysis and visualization. SAS full form is Statistical Analysis Software. It allows you to use qualitative techniques and processes which help you to enhance employee productivity and business profits. SAS is also used for advanced analytics like business intelligence, crime investigation, and predictive analysis. SAS is pronounced as “SaaS.”\n" +
+                "\n" +
+                "In SAS, data is extracted & categorized which helps you to identify and analyze data patterns. It is a software suite which allows you to perform advanced analysis, Business Intelligence, Predictive Analysis, data management to operate effectively in the competitive & changing business conditions. Moreover, SAS is platform independent which means you can run SAS on any operating system either Linux or Windows.\n" +
+                "\n" +
+                "Compared to other BI tools, SAS provides extensive support to programmatically transform and analyze data, apart from using the drag and drop interface. This provides very granular control over data manipulation and analyzes which is its USP.\n" +
+                "\n" +
+                "Table of Content:\n" +
+                "\n" +
+                "\n" +
+                "Why do we need SAS?\n" +
+                "Let’s understand the need for SAS with a simple example:\n" +
+                "\n" +
+                "Consider an e-commerce company that wants to know the buying patterns of its customers based on historical data. The company will have to consider thousands of records of multiple customers, to get the generalize insight.\n" +
+                "\n" +
+                "The company may not have all these data required for the analysis. For example, if a customer did not buy a Jacket, then what are the factors which stopped them not buy the Jacket? This missing data could create errors in your analysis. How can you we get rid of these problems? How can we handle this type of data?\n" +
+                "\n" +
+                "If done manually, this task will require hundreds of analysts and thousands of man-hours. By using SAS analytic tool, you can do the same analysis in a matter of hours with a single analyst. SAS tool allows you to eliminate unnecessary data and optimize the relevant information. It will enable you to predict an outcome even with missing data. SAS enables you to take better decisions.\n" +
+                "\n" +
+                "Alternative SAS Tools\n" +
+                "Alternative SAS Tools\n" +
+                "\n" +
+                "R: It is open-source software. It is easy to learn R as it is well documented. It offers strong statistical capabilities.\n" +
+                "\n" +
+                "Python is another popular open-source scripting language. It is supports libraries such as Numpy, Scipy, and MatPlotLib. You can perform any statistical operation, or you can build any model using these libraries.\n" +
+                "\n" +
+                "SAS: It is the widely used analytical tool in the commercial analytics market. With a plethora of statistical functions and good GUI.\n" +
+                "\n" +
+                "In this SAS programming tutorial, we will discuss about Statistical Analytical Systems, and how it can be used to solve our problems.\n" +
+                "\n" +
+                "SAS history\n" +
+                "SAS was developed by Jim Goodnight and John Shall in 1970 at N.C. University\n" +
+                "Initially, it was developed for Agricultural Research.\n" +
+                "Later, it expanded to a gamut of tools to include Predictive Analytics, Data Management, BI among others.\n" +
+                "Today 98 of world’s top companies in fortune 400 uses SAS data analytical tool for Data analysis.\n" +
+                "Next in this SAS language tutorial, we will learn about features of SAS.\n" +
+                "\n" +
+                "SAS Features\n" +
+                "Key features of SAS are:\n" +
+                "\n" +
+                "Easily access raw data files & data in from an external database. Read and write almost any data format!\n" +
+                "Manage data using tools for data entry, editing retrieval, formatting & conversion\n" +
+                "Analyze data using descriptive, statistics, multivariate techniques, forecasting, modeling, linear programming\n" +
+                "Advanced analytics helps you to make changes and improvements in business practices.\n" +
+                "Report formation with perfect graphs\n" +
+                "Operations research and project Management\n" +
+                "Data updating and modification\n" +
+                "Powerful data handling language\n" +
+                "Excellent data cleansing functions\n" +
+                "Interact with multiple host systems\n" +
+                "Next in this SAS for beginners tutorial, we will learn about SAS Product suite.\n" +
+                "\n" +
+                "\n" +
+                "SAS Product Suite\n" +
+                "There are many SAS products is available in the market. Following is a list of the more popular ones.\n" +
+                "\n" +
+                "Name\tDescription\n" +
+                "Base SAS\tBase SAS software offers hardware agility and integrates into all kind of computing environment.\n" +
+                "SAS/GRAPH\tThis tool helps you to represent structured data into graphs.\n" +
+                "SAS/STAT\tThis tool helps you to perform different types of regression, statistical analysis variance, regression, and psychometric analysis.\n" +
+                "SAS/ETS\tIt is used for forecasting. Helps you to perform the time series analysis.\n" +
+                "SAS/IML\tInteractive Matric language is known as IML. This tool helps you to translate mathematical formulas into an innovative program.\n" +
+                "SAS EBI\tA tool for Business Intelligence Applications\n" +
+                "SAS Grid Manager\tIt is a core component which offers data management facility and a programming language for data analysis\n" +
+                "SAS/OR\tTool for Operation research\n" +
+                "SAS/QC\tUse for Quality control\n" +
+                "SAS/Enterprise Miner\tData mining\n" +
+                "SAS/PH\tClinical trial analysis\n" +
+                "SAS/AF\tIt offers applications facility\n" +
+                "Enterprise Guide\tIt is a GUI based code editor & project manager\n" +
+                "Next in this SAS tutorials guide, we will learn about SAS architecture.\n" +
+                "\n" +
+                "SAS Architecture\n" +
+                "SAS Architecture\n" +
+                "Architecture of SAS\n" +
+                "SAS architecture is divided mainly of three parts:\n" +
+                "\n" +
+                "Client Tier\n" +
+                "Middle Tier\n" +
+                "Back tier\n" +
+                "Client tier\n" +
+                "Client tier is where the application is installed on a machine, where the user is sitting. It consists of the components which are used to view the portal and its content. It also includes a standard web browser that is used to interact with the portal over standard HTTP or HTTPS protocol. It also helps you to make the SAS web application firewall friendly.\n" +
+                "\n" +
+                "Middle tier\n" +
+                "The middle tier offers a centralized access point for enterprise information. All access to content is processed by components operating of this tier. The separation of the business logic with display logic helps you to leverage the logic of the middle tier. Moreover, centralized points of access make it easier to enforce security rules, administer the portal and manage code changes.\n" +
+                "\n" +
+                "The middle tier hosts the following functions:\n" +
+                "\n" +
+                "SAS Information Delivery Portal Web Application: It is the collection of JSP, Java servlets, JavaBeans, and other classes and resources. These components help you to access information stored in the enterprise directory to create a customizable interface for the user.\n" +
+                "\n" +
+                "Servlet Engine: The servlet engine is also called a servlet container. It is responsible for managing the SAS Information Delivery Portal Web Application. The servlet engine offers a run time environment. It provides concurrency, deployment, lifecycle management, etc.\n" +
+                "\n" +
+                "Web server: Web server offers service for the servlet engine which can be used to host website. This should be accessed using the portal.\n" +
+                "\n" +
+                "Back Tier\n" +
+                "The back tier is an area where the data and computation servers run which may contain business objects. It is an enterprise directory server. The enterprise directory server maintains metadata about content which is located throughout the enterprise."),
+        InformationData("Scratch",R.drawable.ic_scratch,"Scratch coding is the process of writing and running programs using Scratch, a free programming language and code editor that helps young learners understand coding logic using blocks and visual aids. \n" +
+                "\n" +
+                "Scratch is a programming platform for children which was created by the MIT Media Lab in 2007. The platform has undergone two revisions since then, transitioning from the Squeak programming language through ActionScript to the most recent version of JavaScript. Scratch was developed to provide a cost-free and visually appealing coding platform for children that generates a product while teaching the fundamentals of coding. \n" +
+                "\n" +
+                "Here are the main features of Scratch:\n" +
+                "\n" +
+                "Teaches children how to write code in a visually eloquent manner. \n" +
+                "Offers block-based coding, allowing learners to arrange pre-written instructions to generate actions. \n" +
+                "Helps users work together, think imaginatively, and analyze methodically. \n" +
+                "Allows them to create animations and graphics that can be shared after a project has been completed. \n" +
+                "Allows users to convert completed projects to HTML5, Android applications, Bundle (macOS), or EXE files using external tools.\n" +
+                "Enables students to blend animation, computer games, and other projects utilizing sounds and visuals.\n" +
+                "Has an online community that allows children to develop and exchange interactive multimedia such as tales, puzzles, and animations with individuals across the globe. \n" +
+                "Offers teachers the option to assign and exchange assignments with students, making it an excellent teaching platform, especially when it comes to remote learning.\n" +
+                "Great way to introduce kids to computer science and programming.\n" +
+                "Accessible in 70 languages across the world. \n" +
+                "As of December 2022, over 67 million projects have been contributed to Scratch by more than 64 million users. At 38 million monthly users, Scratch is extremely popular today. However, it needs basic reading abilities, making it futile for children less than eight years old. The developers of Scratch were quick to realize this and launched ScratchJr in 2014. \n" +
+                "\n" +
+                "ScratchJr offers a simpler approach to programming at a relatively young age without the ability to read or calculate. Used by more than ten million individuals across the globe, ScratchJr is meant for children aged 5 to 7 and is available for free on iOS, Android, and Chromebook. \n" +
+                "\n" +
+                "Basics of coding \n" +
+                "Simply described, coding means training an item to behave. Likewise, whenever we, as teachers (coders), train computers (objects), they must obey. However, since the machine does not comprehend any natural speech, the directions must be supplied in the form of codes. This is what coding is.\n" +
+                "\n" +
+                "In general, there are two types of coding:\n" +
+                "\n" +
+                "Block-based coding (examples include Scratch, code.org, Thunkable, etc.) \n" +
+                "Textual coding (examples include C, Java, Python, etc.)\n" +
+                "Let’s understand block-based coding.\n" +
+                "\n" +
+                "Block-based coding is the basic version of computer programming. It is an excellent method to teach the foundations of programming without sophisticated and convoluted text-based lines of code.\n" +
+                "\n" +
+                "In this type of coding, learners utilize graphical units to build animations and puzzles. Powered by a visual interface, it lets them drag and drop a sequence of blocks. Each block contains a single line of code. Therefore, the user essentially creates software without the assistance of text. This allows them to rapidly comprehend the essential principles and logic of programming.\n" +
+                "\n" +
+                "Because each block performs a separate function or command, you just need to arrange them in a certain sequence for the newly-created program to operate. The usage of blocks also facilitates the detection and correction of programming errors. The visual and participatory nature of block-based coding makes this process simpler and more effective.\n" +
+                "\n" +
+                "See More: Top Five Free Cloud Platforms to Learn Kubernetes Online\n" +
+                "\n" +
+                "How Does Scratch Coding Work?\n" +
+                "The Scratch user dashboard is the region of the screen where the Scratch application is shown. The screen is split into many portions or panes. Each pane serves a distinct purpose, such as choosing blocks to write with, writing code, and seeing the results of your work.\n" +
+                "\n" +
+                "A Scratch UI (comparable to an integrated development environment or IDE) is separated into three primary areas: a staging ground, block palettes, and a coding area. Additionally, users may generate their custom code blocks, which will display in “My Blocks.” Scratch 3.0 (the latest version of Scratch) consists of three elements: \n" +
+                "\n" +
+                "Stage area: The stage area displays the outcomes — for example, animations or turtle graphics, in either a tiny or regular scale, with a full-screen option, while the bottom section lists all sprite thumbnails. The stage employs y and x coordinates, with 0,0 representing the center of the stage.\n" +
+                "Block palettes: The block palette contains all the instructions that may be dragged and dropped into the project’s code area. One can drag blocks of instructions via the block palettes into the coding area when a sprite is chosen at the lower half of the staging area. \n" +
+                "Code area: Code area is the area on the left side of the project editor where codes are assembled. It is meant for placing and arranging blocks as scripts which may be executed by clicking the green signal or tapping on the code itself. The user can choose a sprite character or move instructions from the palette into the coding area, allowing the sprite to perform the desired actions. For instance, a cat cartoon/animation may be programmed to take ten steps forward.\n" +
+                "Costumes tab: It enables users to alter the appearance of a sprite using a vector and bitmap editor to generate numerous effects, including animation. \n" +
+                "Sounds tab: It enables music and sound effects to be attached to a sprite. When designing sprites and backgrounds, users can manually draw their own sprite, select one from the collection, or upload an image. \n" +
+                "Paintbrush: It is employed to draw freehand shapes by dragging and dropping. When using the paintbrush tool, a user has to click on the paintbrush icon on the left-hand side of the drawing space in the center of the toolbar. \n" +
+                "Scratch coding is a very simple form of coding that focuses on teaching event-based coding processes rather than the language directly. It integrates with various larger projects, like LEGO Mindstorms EV3 , BBC micro:bit, via various extensions, allowing additional possible outcomes from the programming platform.\n" +
+                "\n" +
+                "See More: What Is COBOL Programming Language? Definition, Examples, Uses, and Challenges\n" +
+                "\n" +
+                "Scratch coding blocks\n" +
+                "In Scratch, blocks refer to the structures employed to build code. The blocks are connected upright like puzzle pieces, with every block category (cap, stack, reporters, boolean) having its form and a unique slot shape, thereby preventing syntax problems. Scripts are collections of linked blocks.\n" +
+                "\n" +
+                "Blocks are often simpler to operate than text-based programming as they do not need memorization like written instructions and cannot result in syntax problems. Text-based coding is more versatile than block-based programming since the text may be altered without dragging additional blocks into the editor.\n" +
+                "\n" +
+                "The ten types of blocks include Motion, Appearance, Sounds, Events, Controls, Sensors, Operators, Variables, Lists, and My Blocks. Some key block types are discussed below:\n" +
+                "\n" +
+                "Events: These yellow bricks have a unique form, with a protrusion at the top. These blocks are “starting blocks,” meaning they must be placed at the beginning of each new code segment. They indicate when the script will be executed.\n" +
+                "Motion: These blue bricks enable your sprite’s movement, rotation, and gliding, to the tune of a specific number of degrees or steps. \n" +
+                "Looks: These purple pieces alter the visual look of your sprite. This includes color, size, thought bubbles, and other interesting effects.\n" +
+                "Loops: These orange-colored blocks are located in the “control” section. Similar to the Events blocks, these have a unique form. Loops allow continuous repetition of an effect.\n" +
+                "Sounds: This area enables you to include audio in your application. On the “sounds” tab, you can add your own sounds to each sprite. For instance, make your dog sprite growl or record some noises for it to “speak.”\n" +
+                "Scratch blocks is a major development initiative for the future eras of graphical programming blocks built on a partnership between Google and MIT’s Scratch Team — strengthening Google’s Blockly technology and incorporating the Scratch Team’s expertise in creating imaginative teaching aids for children. Scratch blocks will offer a framework for creating vertical (text-based) or horizontal (icon-based) programming units.\n" +
+                "\n" +
+                "Scratch extensions\n" +
+                "There are many Scratch extensions that may be attached to the block area. One can select the blue icon on the right side of the usual block sections to pick an extension. Commonly-used Scratch coding extensions include:\n" +
+                "\n" +
+                "Music: This extension enables users to play MIDI notes on various instruments.\n" +
+                "Video sensing: Projects can communicate with a camera using this extension.\n" +
+                "Translate: Using the Translate plugin, text may be translated into various languages.\n" +
+                "Pen: The Pen add-on enables users to sketch on the stage using a pen.\n" +
+                "Text to speech: This allows text to be read aloud.\n" +
+                "The LEGO MINDSTORM EV3 extension: It permits Scratch projects to connect with LEGO MINDSTORM EV3 devices.\n" +
+                "The Micro:bit extension: It enables Scratch projects to communicate with micro:bit projects.\n" +
+                "See More: Pivoting From Coder to Solution Architect: Four Skills and Certifications to Thrive\n" +
+                "\n" +
+                "Benefits of Scratch Coding\n" +
+                "The main purpose of Scratch is to help young learners learn basic coding concepts without getting into the complexities of object-oriented programming or textual coding. Here are some benefits of coding with Scratch.\n" +
+                "\n" +
+                "1. Improves analytical and problem-solving skills\n" +
+                "As kids resolve and overcome different challenges during coding, Scratch helps them develop logical reasoning abilities and problem-solving skills.\n" +
+                "\n" +
+                "2. Simplifies the learning curve in the world of coding\n" +
+                "Among the most challenging elements of programming is it requires a lot of effort to be completely grasped. However, this is not the case with Scratch. Since the language was created with children in mind, it is easy to comprehend. Children do not need complex books, instructions, or lessons to understand how the language functions.\n" +
+                "\n" +
+                "3. Provides entertainment and engagement along with learning\n" +
+                "Scratch programming helps kids think creatively and express themselves freely. Moreover, the tasks they develop are fascinating and engaging, which makes learning enjoyable.\n" +
+                "\n" +
+                "4. Offers an attractive user interface\n" +
+                "Thanks to its visually attractive interface, Scratch coding piques your child’s interest in programming. It helps children visualize their code, making the experience even more enjoyable.\n" +
+                "\n" +
+                "5. Teaches how hardware extensions can be interoperable with code\n" +
+                "Scratch programming is excellent for children who enjoy practical activities. Many companies sell hardware kits compatible with Scratch, which may be used to construct fascinating projects. Makey-Makey or micro:bit, for instance, enable children to design and construct their own game controllers.\n" +
+                "\n" +
+                "6. Reduces barriers of a coding career\n" +
+                "Programming with Scratch is accessible to a majority of internet users. You can, therefore, offer your child coding lessons from the convenience of your own home with Scratch for kids. It sets them up for a successful career in software development without making the learning process arduous. \n" +
+                "\n" +
+                "7. Explains programming logic visually\n" +
+                "Children can continuously see what they’re creating and check the result of their activities. This helps them understand the reasoning underlying computer programs. Scratch’s logic expands on fundamental ideas like variable parameters, data types, collections, matrices, looping, and operators. When students go from the prevalent block-based programming to text-based programming, these abilities also transcend to other languages.\n" +
+                "\n" +
+                "8. Bypasses the rules of syntax around traditional programming languages\n" +
+                "Numerous programming languages require children to learn text commands and impose stringent constraints on their use. Scratch coding allows children to concentrate on the fun parts of programming, such as generating concepts for new programs, figuring out how to construct them, creating them, and discussing them with others.\n" +
+                "\n" +
+                "To ensure that Scratch coding meets all of these needs, the team behind the software follows a set of principles called the four Ps of learning how to code – projects, passion, peers, and play. \n" +
+                "\n" +
+                "People learn most effectively when they are actively engaged in project-based activities, such as generating ideas, developing models, making improvements, and producing finished products.\n" +
+                "When individuals concentrate on topics they are passionate about, they work harder and longer, remain resilient despite obstacles, and acquire more knowledge in the process.\n" +
+                "With socialization, learning thrives with individuals exchanging ideas, cooperating on initiatives, and expanding on their peers’ work.\n" +
+                "Learning requires playful exploration – attempting new things, experimenting with material, pushing the limits, taking risks, and repeatedly iterating.\n" +
+                "See More: Cobol Programmer: Job Description, Key Skills, and Salary in 202\n" +
+                "\n" +
+                "Getting started with Scratch coding\n" +
+                "To begin coding with Scratch, visit the MIT website for Scratch and follow the steps below: \n" +
+                "\n" +
+                "Click the “create” button to begin a new project. \n" +
+                "The coding units are located on the left side of the display. \n" +
+                "To start coding, tap and drag the pieces to the huge area in the middle. \n" +
+                "The letters and objects on scratch are known as “sprites.” You may add or remove an unlimited number of sprites. \n" +
+                "Tap on a sprite to generate code for that sprite. \n" +
+                "There are several entertaining sprites to choose from. \n" +
+                "To code, you may join chunks of code by dragging them from left to right. \n" +
+                "In addition to the backdrop, each sprite will be given its own code.\n" +
+                "These blocks can move, generate noises, and alter the color of sprites. And when combined, they produce a sequence of events that you can use to create a game, cartoons, and other projects. \n" +
+                "After coding your application, you may select a Green Flag to run it on Stage. \n" +
+                "Ensure that your project is stored under your account if you wish to save or share it.\n" +
+                "Scratch allows you to upload Scratch-created projects on its virtual live studio, CODE. You can also see projects posted by other programmers here and leave your comments.\n" +
+                "Takeaway\n" +
+                "If you are new to coding — no matter your age — Scratch is an excellent entry point. It demonstrates the use of if/then coding logic, which is the foundation for software development across all languages. Even if you don’t know the specific lexicon of a language, Scratch coding allows you to get started with its logical aspects without having to use a compiler to view the output. Ultimately, Scratch coding is plain fun — a gamified way to learn a valuable technical skill. \n" +
+                "\n" +
+                "Did this article give you a detailed understanding of how Scratch coding works? Tell us on FacebookOpens a new window , TwitterOpens a new window , and LinkedInOpens a new window . We’d love to hear from you! "),
+        InformationData(" Logo",R.drawable.ic_logo,"Logo Programming\n" +
+                " \n" +
+                "The Logo Programming Language, a dialect of Lisp, was designed as a tool for learning. Its features - interactivity, modularity, extensibility, flexibility of data types - follow from this goal.\n" +
+                "\n" +
+                " \n" +
+                "Interactivity\n" +
+                "Although there are some versions of Logo that compile, it is generally implemented as an interpreted language. The interactivity of this approach provides the user with immediate feedback on individual instructions, thus aiding in the debugging and learning process. Error messages are descriptive. For example\n" +
+                "\n" +
+                "fowad\n" +
+                "\n" +
+                "I don't know how to fowad\n" +
+                "\n" +
+                "(The word fowad is not a primitive - one of Logo's built in words - nor a procedure that you've defined.)\n" +
+                "\n" +
+                "forward\n" +
+                "\n" +
+                "Not enough inputs to forward\n" +
+                "\n" +
+                "(Now that you've spelled it correctly, Logo knows the word forward, but can't run your instruction because forward requires additional information.\n" +
+                "\n" +
+                "forward 100\n" +
+                "\n" +
+                "(Logo is happy. There's no error message. The turtle moves forward 100 steps.)\n" +
+                "\n" +
+                " \n" +
+                "Modularity and Extensibility\n" +
+                "Logo programs are usually collections of small procedures. Generally, procedures are defined by writing them in a text editor. The special word to is followed by the name of the procedure. Subsequent lines form the procedure definition. The word end signals that you're finished.\n" +
+                "\n" +
+                "In our turtle graphics example we defined a procedure to draw a square\n" +
+                "\n" +
+                "to square\n" +
+                "repeat 4 [forward 50 right 90]\n" +
+                "end\n" +
+                "\n" +
+                "and used it as a subprocedure of another procedure\n" +
+                "\n" +
+                "to flower\n" +
+                "repeat 36 [right 10 square]\n" +
+                "end\n" +
+                "\n" +
+                "Similarly, flower could be a building block of something larger\n" +
+                "\n" +
+                "to garden\n" +
+                "repeat 25 [set-random-position flower]\n" +
+                "end\n" +
+                "\n" +
+                "No, set-random-position is not a primitive, but random is and so is setposition (or setpos or setxy). Or you could write set-random-position using forward and right with random.\n" +
+                "\n" +
+                "Once a Logo procedure is defined it works like the Logo primitives. In fact, when you look at Logo programs there's no way of knowing which words are primitives and which are user-defined unless you know that particular Logo implementation. In our language sample we used the procedure pick to randomly select an item from a list, for example in the procedure who.\n" +
+                "\n" +
+                "to who\n" +
+                "output pick [Sandy Dale Dana Chris]\n" +
+                "end\n" +
+                "\n" +
+                "In some versions of Logo pick is a primitive while in others you have to write it yourself. Who would look and work the same way in either case.\n" +
+                "\n" +
+                "Logo allows you to build up complex projects in small steps. Programming in Logo is done by adding to its vocabulary, teaching it new words in terms of words it already knows. In this way it's similar to the way people learn spoken language.\n" +
+                "\n" +
+                " \n" +
+                "Flexibility\n" +
+                "Logo works with words and lists. A Logo word is a string of characters. A Logo list is an ordered collection of words and or lists. Numbers are words, but they're special because you can do things like arithmetic with them.\n" +
+                "\n" +
+                "Many programming languages are pretty strict about wanting to know exactly what kind of data you claim to be using. This makes things easier for the computer, but harder for the programmer. Before adding a couple of numbers you might have to specify whether they are integers or real numbers. The computer needs to know such things. But most people don't think about this so Logo takes care of it for you. When asked to do arithmetic Logo just does it.\n" +
+                "\n" +
+                "print 3 + 4\n" +
+                "7\n" +
+                "\n" +
+                "print 3 / 4\n" +
+                ".75\n" +
+                "\n" +
+                "If you are unfamiliar with Logo but work in other programming languages, the following sequence may surprise you:\n" +
+                "\n" +
+                "print word \"apple \"sauce\n" +
+                "applesauce\n" +
+                "\n" +
+                "print word \"3 \"4\n" +
+                "34\n" +
+                "\n" +
+                "print 12 + word \"3 \"4\n" +
+                "46\n" +
+                "\n" +
+                "Here's a recursive procedure that computes factorials:\n" +
+                "\n" +
+                "to factorial :number\n" +
+                "if :number = 1 [output 1]\n" +
+                "output :number * factorial :number - 1\n" +
+                "end\n" +
+                "\n" +
+                "print factorial 3\n" +
+                "6\n" +
+                "\n" +
+                "print factorial 5\n" +
+                "120\n" +
+                "\n" +
+                "Here's a procedure to reverse a list of words:\n" +
+                "\n" +
+                "to reverse :stuff\n" +
+                "ifelse equal? count :stuff 1\n" +
+                "[output first :stuff]\n" +
+                "[output sentence reverse butfirst :stuff first :stuff]\n" +
+                "end\n" +
+                "\n" +
+                "print reverse [apples and pears]\n" +
+                "pears and apples\n" +
+                "\n" +
+                "You might also want to take a look at Brian Harvey's interesting Logo sample.\n" +
+                "\n" +
+                " \n" +
+                "Enhancements\n" +
+                "The features just illustrated are common to all versions of Logo. Some Logo implementations include enhanced language features.\n" +
+                "\n" +
+                "There was an object-oriented Logo called Object Logo for the Macintosh.\n" +
+                "\n" +
+                "MicroWorlds Logo includes multi-tasking so that several independent processes may be run simultaneously. The same capability is in the software for Control Lab, a LEGO Logo product. An even more massively parallel Logo is StarLogo.\n" +
+                "\n" +
+                "In a traditional Logo the command to the turtle\n" +
+                "\n" +
+                "repeat 9999 [forward 1 right 1]\n" +
+                "\n" +
+                "would take a while to execute. The instruction\n" +
+                "\n" +
+                "repeat 9999 [forward 1 right 1] print \"HELLO\n" +
+                "\n" +
+                "would cause the word HELLO to appear after the turtle was done moving.\n" +
+                "\n" +
+                "In MicroWorlds Logo typing\n" +
+                "\n" +
+                "launch [repeat 9999 [forward 1 right 1]] print \"HELLO\n" +
+                "\n" +
+                "would start the turtle going. The word HELLO would appear as soon as the first process is launched. Or\n" +
+                "\n" +
+                "forever [forward 1 right 1] print \"HELLO\n" +
+                "\n" +
+                "would initiate a process that would continue until you stopped it. Again, the word HELLO would appear as soon as the turtle process is initiated.\n" +
+                "\n" +
+                " \n" +
+                "Find Out More\n" +
+                "To find out more about the Logo programming language look at Brian Harvey's three-volume epic Computer Science Logo Style and Michael Friendly's Advanced Logo.\n" +
+                "\n" +
+                "If you do not have Logo and want to get started, you might want look at our Logo software page. Or, you can just download UCBLogo, MSWLogo, FMSLogo, StarLogo TNG, or StarLogo Nova right now.\n" +
+                "A Hindi translation of this article is available here.\n" +
+                "A Ukrainian translation of this article is available here.\n" +
+                "A Serbo-Croatian translation of this article is available here"),
+        InformationData("Delphi",R.drawable.ic_delphi,"Among hundreds of different coding languages, Delphi has stood the test of time. Although not as mainstream as it once was, it continues to be a coding language many programmers choose to use. While Delphi may not be back in the spotlight, it still holds an important significance in history for programmers today. It has been the root of many famous applications such as Skype, Hamachi, WinRAR, Space Rangers, and many more. It is important to learn about what Delphi is, its history, and why programmers still choose to use it today.\n" +
+                "\n" +
+                "History\n" +
+                "Firstly, Delphi’s history is a relatively recent one. Delphi was first released in 1995 as a tool for building Windows applications. It was the first in its time to be a language that targeted object orientation in applications. That means is the software is more centered around data or objects rather than functions and logic. The program was developed from Turbo Pascal, released in November of 1983 by a company named Borland. The creator of both Turbo Pascal and Delphi, Anders Hejlsberg, introduced them with an Integrated Development Environment. This meant that the program was straightforward to edit and fix. The programmer could write code, and the program would identify it. It would then allow the programmer to jump to the exact line of errors to correct them. In 1995, Hejlsberg turned Turbo Pascal into a visual programming language: Delphi.\n" +
+                "\n" +
+                "Origin of the name “Delphi.”\n" +
+                "The origin of Delphi is very heavily based on the Greek location. Delphi was built as an ancient sanctuary in Greece. Eagles sent out by Zeus had met at the future location of Delphi and was marked with a stone by Zeus. Later in the sixth and fourth centuries B.C., the Oracle of Delphi became a very influential figure. He made many predictions, such as the Argonaut’s expedition and the Trojan War. When Delphi, the programming language, was developed, the name was temporary. Delphi was chosen because of its close compatibility with another language known as Oracle. Anders Hejlsberg believed it to be a fitting name based on the Greek myth.\n" +
+                "\n" +
+                "Overview of the Program’s Language\n" +
+                "Delphi was built to be run with Windows, macOS, iOS, Android, and Linux applications. This is about every major platform in existence. Primarily though, it was developed to be run with Windows-based applications. Since its arrival, Delphi has emphasized backward compatibility. This means that new programs can be run with their successors seamlessly.\n" +
+                "\n" +
+                "Although, despite placing heavy emphasis on backward compatibility, Delphi has struggled to keep up. While it is close to being completely backward-compatible, it has not been in recent years. The lack of full compatibility is due to the software not being overall maintained. In new versions of the language, some features make it difficult to allow full compatibility. So, while it once was fully backward compatible, it would not currently be guaranteed.\n" +
+                "\n" +
+                "There are many benefits still associated with using the Delphi program. Despite being labeled as “outdated,” many aspects of it still work for some. One of the more major reasons for not switching software is that the code requires minimal maintenance. This reduces the need for applications to transition to other software and saves money on its upkeep. With saving money, applications using Delphi also compile very quickly and can be run on limited resources. This means the applications convert the program into a lower level of code in which it can be executed.\n" +
+                "\n" +
+                "One feature mentioned previously is the software’s ability to identify errors. While a feature relatively trivial now, back in 1995, it was innovative. Having a program that identifies where the error is located redirected the focus back into writing code. Rather than spending time sifting the code for errors, Delphi gave the programmer ease. One could edit the program, run it, and fix the error. Today, it still serves as a useful tool for programmers choosing to stick with Delphi.\n" +
+                "\n" +
+                "Going back to the roots of Delphi, it was built to support Windows applications. Windows is widely used across the world as one of the biggest operating systems. Delphi was designed to support Windows application programming interfaces. The market held a strong demand for software compatible with Windows app development. Delphi was able to deliver on the demands of consumers. When that demand moved to Java and .NET, Delphi still carried on the market. It may just be a small perk of Delphi, but still so widely popular for supporting Windows.\n" +
+                "\n" +
+                "Another great feature of Delphi is its frictionless transition with C++, another programming language. C++ is another object-oriented program developed a little bit after Pascal. Just like Delphi, C++ is also great for converting a program to a lower level. Similarities like this are what make these two operable with each other. Granted, C++ is much more popular than Delphi, as it is a foundation for many other languages. Nonetheless, it is possible to mix Delphi and C++.\n" +
+                "\n" +
+                "Examples of Delphi Code\n" +
+                "\n" +
+                "This example of the Delphi code is to create a timer. Much of the code written with Delphi begins with “var.” Along with that, the code always ends with the signifier: “end;” Much of it is quite complicated to understand. There are many phrases to remember, along with specific punctuation usage. Commas and semi-colons play a vital role in establishing the readability of the code.\n" +
+                "\n" +
+                "Delphi vs. Python\n" +
+                "\n" +
+                "Many features of Delphi stand out compared to Python. The more notable feature is using two forward slashes with a space between them (“/ /”). This symbolizes the comments a programmer makes to make notes or separate their code. In Python, adding comments would be to use a pound sign (“#”). While a minor difference, it plays an important role in how the code is processed. Along with that, the use of the “end;” or “end.” phrase is very different from Python. Python does not require a programmer to signify the termination of a segment of code. The phrase “end;” only signifies the termination of a specific block of code. While “end.” terminates the entire program.\n" +
+                "\n" +
+                "\n" +
+                "If Statements\n" +
+                "Pictured above are “if” statements, as seen in Delphi. In Delphi, “if” statements are a little bit more complicated than in Python. While intricate, they do share some similarities in structure. This program does not require that the programmer uses a lead after the if statement. As pictured in the photo, there is a lack of a semicolon after “then.” In Python, a colon must be placed after an “if” statement, as pictured below. To replace the use of a colon or semi-colon, Delphi uses the “then” statement. The colon indicated in the Python code essentially shares the same definition as “then.” It forces the program to execute the criteria displayed under the “if” statement.\n" +
+                "\n" +
+                "In the Python variation of “if” statements, there is the use of the “else if” clause. The “else if” clause essentially checks all of the expressions under the “if” block. If the “if” and “else if” blocks are both false, the program moves to execute the “else” statement. Rather than using the “else if” statement, Delphi uses another “if, else” statement under the “if” statement.\n" +
+                "\n" +
+                "\n" +
+                "Loops\n" +
+                "Loops in Python and Delphi are not at all similar. While the structure is vaguely similar, the terminology and style of the code are very different. Pictured on the top is a sample loop written in Delphi. The latter image is a loop written in Python. In Delphi, it is important to allow a segment to define variables. There are segments to describe where the code begins, repeats, and ends. In Python, it is clear that it is not as heavily divided. While the variables are defined, sections in Python are divided by new lines. The phrases in Delphi, such as “repeat and “end,” command the program what to do. While in Python, newlines don’t serve this purpose. Rather the embedded code in Python does that for the programmer. Python executes the written code and commands and terminates when the code is finished. Secondly, the phrase “until exit” is something that is not seen in Python. As stated before, Python continues to run the code until all of it has been executed. Delphi requires the program to be direct and concisely written by the programmer.\n" +
+                "\n" +
+                "\n" +
+                "Summary\n" +
+                "Delphi and Python are great coding languages in their own ways, but they share more differences than similarities. On a more technical note, Python actually only has a recommended memory of one GB. Delphi has a much larger storage capacity, with a recommended two GB of storage. The user-focused compatibility of Python makes it much easier to learn than Delphi. Delphi is a program catered to the more advanced programmers. Python is great for beginners learning to write and read code. As seen in the previous examples, the spacing and minimalist approach to phrasing make Python appear simple. Delphi presented new symbols, definitions, and phrases that are not present in the structure of Python. Python is known for its readability and ease of the eyes. Delphi is known for its efficiency and compatibility with many different platforms.\n" +
+                "\n" +
+                "Trends\n" +
+                "Back in 1995, the release of Delphi provided Windows-based programmers with the software they needed. Not only was it Windows-exclusive, but Delphi was also used with every other major platform. By the 2000s, the introduction of .NET and Java made it more difficult for Delphi to keep up. Many were stuck with just one software with Delphi, but Java came with an integrated development environment. Integrated development environments are an application where all types of programming could be done in a single space. IDEs were designed to maximize a programmer’s productivity. While Delphi did not offer that, Delphi continued to be popular amongst many users. It was software that presented users with many built-in functions. Functions such as a code editor, visual designer, debugger, and third-party plugin support. Sources do state that Delphi is still popular with long-term users. The problem lies within the willingness of programmers to want to learn Delphi. Within the last few years, Embarcadero (the current owning company) has begun to perform heavy maintenance on Delphi. Since 2016, the company has been releasing updates every 6 months in an attempt to regain popularity.\n" +
+                "\n" +
+                "Takeaway\n" +
+                "For over 25 years, Delphi has pushed on through thick and thin. After competing with Java and undergoing current updates, it still tries to do its best for its long-term programmers. Because of its low maintenance and backward compatibility, many applications continue to use Delphi today. With a brief but rich history, Delphi continues to be significant in the lives of many programmers and applications. It may no longer be in its prime, but it served as a turning point in the world of programming."),
+        InformationData("COBOL",R.drawable.ic_cobol,"COBOL (common business-oriented language) is a standard programming language developed by a consortium CODASYL (Conference/Committee on Data Systems Language) in 1959 to support business and financial applications. The language was primarily conceived for mainframe computers and was not dependent on any particular operating system for its working.\n" +
+                "\n" +
+                "COBOL is a user-friendly language that uses English words and phrases as a syntax of keywords and constructs. This natural language-inspired syntactical structure evolved from Grace Hopper’s 1940s work on FLOW-MATIC, a text-based data processing language. Languages such as COMTRAN and FACT significantly influenced the eventual design of COBOL.\n" +
+                "\n" +
+                "Before the inception of COBOL, each operating system had a programming language of its own. However, this seemed to be a hurdle for several companies as they had to work with the systems of numerous brands. This led to the initiation of the COBOL project. The portable framework and usability made COBOL popular across disciplines such as banks, financial institutions, insurance companies, human resources departments, and government agencies. \n" +
+                "\n" +
+                "Since the 1950s, COBOL has had several versions; COBOL 60 being the first one, followed by COBOL 61, COBOL 65, COBOL 68, COBOL 74, COBOL 85, COBOL 2002, and the latest COBOL 2014. Although COBOL has ended its development, its programs are still in use and may continue to exist until the software is ready to migrate to a new alternative.\n" +
+                "\n" +
+                "COBOL has several advantages over its rivals. Firstly, it is a portable language, which means that the language is reliant on any specific vendors. It supports operating systems such as Windows, Linux, mainframes, Unix, and others. Additionally, COBOL is accessible to anyone good at English grammar. Also, COBOL uses the self-documenting feature to ease maintainability by synchronizing the code and its documentation.\n" +
+                "\n" +
+                "Key COBOL features\n" +
+                "Let’s understand some key features that have allowed COBOL to stay relevant even today.\n" +
+                "\n" +
+                "Key COBOL Features\n" +
+                "Key COBOL Features\n" +
+                "\n" +
+                "1. Global business language\n" +
+                "Several large enterprises, organizations, banks, financial firms, insurers, and industrial sectors such as healthcare, retail, automotive, shipping services, and others use COBOL for various reasons. For example, companies such as IBM, UPS, Fiserv, Bank of America, JPMorgan Chase, and Cigna still depend on COBOL. Thus, the language continues to play a crucial role in business computing that drives the global economy.\n" +
+                "\n" +
+                "Despite the lesser developments in its versions, COBOL remains the language of choice across diverse markets and business lines. According to a Feb 2022 global survey by Micro Focus, around 92 percent of the survey-takers (software engineers, developers, IT executives, and architects from 49 countries) opined that COBOL applications are developed today to serve the strategic purpose of their respective organizations.\n" +
+                "\n" +
+                "2. Easy readability\n" +
+                "COBOL came into existence with the motto of developing a language that communicates better with computers. However, people observed that the demand for the language grew across industries with time. A lot of credit goes to the readability aspects of COBOL. It allows a layperson to learn and work with the language with proper training.\n" +
+                "\n" +
+                "Moreover, the language does not use pointers, user-defined data types or functions, making it a simple language to understand.\n" +
+                "\n" +
+                "3. Seamless integration with modern systems\n" +
+                "COBOL is a legacy language that supports and integrates easily with most traditional deployments, architectures, modern technologies, and complex applications. For example, COBOL is compatible with Java, C#, and Docker containers and runs on newer platforms such as .NET and JVM. Moreover, it also functions in different cloud environments such as Azure and AWS.\n" +
+                "\n" +
+                "With the rise in Service-Oriented Architectures (SOA), REST, and Web Services, new protocols and methods have come to the fore, including XML, HTML, WSDL, JSON, and SOAP. However, COBOL has ensured that the language integrates and connects seamlessly with modern applications and expands its functionality to the web, mobile, and cloud.\n" +
+                "\n" +
+                "4. Portable language\n" +
+                "COBOL programs run on different platforms. This allows the programmer community to develop value applications rather than worrying about compatibility with operating systems. The platform-agnostic aspect also allows developers to build, test, and deploy COBOL programs across various supported platforms, thereby speeding up the development and application execution process.\n" +
+                "\n" +
+                "5. Evolving language\n" +
+                "COBOL software uses standard IDEs that are prevalent in most industries. This makes it easier for today’s teams to check, review, and amend COBOL programs whenever required. Also, developers can use the latest IT tools and processes to execute and run programs developed on old contemporary systems.\n" +
+                "\n" +
+                "COBOL’s adaptive and evolving nature has allowed the language to stand the test of time and merge with modern APIs, microservices, and cloud applications.\n" +
+                "\n" +
+                "See More: What Is a Neural Network? Definition, Working, Types, and Applications in 2022\n" +
+                "\n"),
+        InformationData("Julia",R.drawable.ic_julia,"Julia is an exciting and relatively new programming language designed to be the ideal language for scientific computing, machine learning, and data mining. Released in 2012, Julia has rapidly become a favorite among experienced data practitioners. \n" +
+                "\n" +
+                "Designed to possess the speed of C, the general programming ability of Python, and the statistical power of R, Julia is a powerful language that is reasonably simple to learn compared to other languages. \n" +
+                "\n" +
+                "Today, Julia has been downloaded over 40 million times and has forged a community that’s registered over 8,000 packages for the programming language. As of October 2022, Julia ranks 25th and 27th in the PYPL Index and TIOBE Index, respectively. That is to say, while not yet as popular as Python, R, or MATLAB, Julia is a rising star with similar popularity to SAS or Scala.\n" +
+                "\n" +
+                "Pros and Cons of Julia \n" +
+                "Of course, it’s easy to get excited about a new programming language, especially when it aims to be so revolutionary. However, as with all languages, Julia has its positives and negatives. Below, we’ve outlined some of the pros and cons of Julia. We explore these in more detail in our article on the rise of Julia: \n" +
+                "\n" +
+                "Julia Pros \n" +
+                "It’s fast. You’ll see a lot of talk about Julia’s speed. In terms of micro-benchmarks (measuring the performance on a range of common code patterns), it performs very well, although these results don’t include compile time. One deep-dive found that Julia’s CSV.jl package for handling delimited text data was 1.5 to 5 times faster than Python’s pandas package at reading CSV data. \n" +
+                "It has a clear syntax. Julia syntax takes inspiration from existing data programming languages. Think of it as MATLAB but with some good ideas taken from Python, R, and Ruby. \n" +
+                "It’s versatile. As we’ll see, there are many uses for Julia. A number of its features, such as its multiple dispatch, make it applicable in many industries and across all kinds of projects. \n" +
+                "Julia Cons \n" +
+                "The language is young. As mentioned, Julia is a relative newcomer to the space. As such, it’s not as widespread or well-supported as languages such as Python and R. \n" +
+                "Its ecosystem is small (but growing). As a result of its newness, the community and ecosystem are still relatively small. There are plenty of unique solutions and packages emerging, but compared to heavyweights like Python, it has a long way to go. \n" +
+                "It has some compilation issues. Several sources have noted a lag that comes when compiling code using Julia’s just-in-time (JIT) compiler. JIT compiles all code to machine code before running it. This delay can make it a little frustrating when trying to carry out quick scripting.  \n" +
+                "Julia Uses\n" +
+                "So, as an emerging language, Julia has several pros and cons. But what is Julia used for? \n" +
+                "\n" +
+                "One of the main aims of Julia’s inception was to create a language that enables programmers to write code that is clear, high-level, generic, and abstract code resembling mathematical formulas while still being able to produce fast, low-level machine code usually seen in static languages. Check out the language in action with our Julia tutorial. \n" +
+                "\n" +
+                "Below, we’ve outlined several areas where the programming language excels. \n" +
+                "\n" +
+                "1. Numerical Computing\n" +
+                "There is a range of packages that allow Julia programmers to carry out numerical computing tasks. For example, for linear algebra-related tasks, there is the LinerAlgebra.jl module; for root-finding, there is NonlinearSolve; and for automatic differentiation, there is ForwardDiff or Enzyme. \n" +
+                "\n" +
+                "2. Machine Learning \n" +
+                "Again, Julia was built with machine learning in mind, particularly scientific machine learning, which focuses specifically on challenges and insights from scientific data sets. As a compiled language designed for parallelism, Julia can offer immense speed on certain machine learning tasks. For example, Julia can significantly improve training times and reduce costs when deploying machine learning models into production. \n" +
+                "\n" +
+                "With a burgeoning community and many new packages for ML, many of which are included in the MLJ framework, Julia can be a great choice for this field. One great example of machine learning in Julia at work comes from an Australian company maintaining powerlines in the country. By creating a 3D map and using Julia machine learning, they were able to identify network failures and potential failures 100x faster than before. \n" +
+                "\n" +
+                "3. Statistics \n" +
+                "Another main function of Julia is for statistics and statistical analysis. For example, the StatsKit meta-package contains Julia packages for basic statistics functions, as well as tools for working with DataFrames tabular data, probability distributions, multivariate statistical analysis, hypothesis tests, and more.\n" +
+                "\n" +
+                "4. General Programming \n" +
+                "As a general-purpose programming language, Julia is capable of building a wide range of software and functions. For example, the Blink package lets you build Electron GUI apps, GameZero introduces game development for beginners, and Miletus allows you to build financial contracts in Julia. \n" +
+                "\n" +
+                "We’ve mentioned already that Julia was designed to be relatively easy and quick to write programs in, given its straightforward syntax. However, it also runs code and performs calculations very quickly. \n" +
+                "\n" +
+                "5. Web Development \n" +
+                "There are several great Julia web development tools available to users. Packages like Genie.jl and Dash.jl. Genie allows users to work with data on the web in Julia. It’s a full-stack web framework providing users with a way of developing web applications with a streamlined and efficient workflow. Dash.jl is a Julia interface to the Dash ecosystem, allowing you to create web applications in Julia. \n" +
+                "\n" +
+                "Julia Examples in Industries \n" +
+                "Now that we know what Julia is used for in broad terms, let’s take a look at some examples of Julia in industries. The Julia website lists many of the language’s applications, and we’ve highlighted some of the key ones below: \n" +
+                "\n" +
+                "6. Pharmaceutical Modelling and Development \n" +
+                "Julia is widely used in the medical field. Researchers use Julia to identify and test new drugs, optimize treatments, and for diagnosis and treatments. Packages such as BioJulia (a bioinformatics infrastructure) and Pumas (for pharmacometrics modeling, the science of qualifying drug trial information) are commonplace. As an example, pharmaceutical giant Pfizer used Julia to accelerate simulations of new therapies. \n" +
+                "\n" +
+                "7. Parallel Supercomputing \n" +
+                "One of the finest examples of Julia’s speed is in the field of astronomy, where the AstroLib.jl bundle of astronomical and astrophysical routines is often used. \n" +
+                "\n" +
+                "An example of Julia’s use in astronomy is the Celeste project, where a research team of astronomers, physicists, computer engineers, and statisticians, developed a new parallel computing method using Julia. After three years of development, they used this method to produce the most accurate catalog of 188 million astronomical objects in just 14.6 minutes, a performance improvement of over 1,000x.\n" +
+                "\n" +
+                "8. Financial Modeling and Management\n" +
+                "The performance and flexibility of Julia make it a powerful tool in the world of finance. Professionals use the language for developing models and projections to make financial decisions. One of the popular packages is JuliaFin, which specializes in areas such as asset management, risk management, algorithmic trading, backtesting, and other areas of computational finance, including modeling financial contracts.\n" +
+                "\n" +
+                "9. Robotics \n" +
+                "Roboticists from MIT use Julia to program robots. Examples include training them to walk, climb stairs, and cover difficult and hazardous terrain. Again, experts cite the flexibility and generic code of Julia as reasons for its prowess in this sector, as it allows practitioners to write clear functions that may operate on a variety of data types.  \n" +
+                "\n" +
+                "One of the popular collections of packages in this area is JuliaRobotics, which includes Julia packages like MotionCaptureJointCalibration.jl, which provides kinematic calibration for robots from motion capture data. \n" +
+                "\n" +
+                "10. Network Security  \n" +
+                "Network specialists at Cisco used the Flux.jl Julia package to improve network security and for machine learning. The ability to write efficient code in a single language is cited as one of the main benefits of using Julia in this field. \n" +
+                "\n" +
+                "Getting Started With Julia \n" +
+                "Evidently, the uses of Julia are significant. Although it’s far from an immediate replacement for Python or R in the field of data science, given how established the latter are, it certainly has the potential to expand your repertoire. Those interested in learning Julia should start with our Introduction to Julia course, which will take you through the key features of this rapidly developing language. You can also find our Julia cheat sheet, which gives a handy reference for the basics of Julia. "),
+        InformationData("ABAP",R.drawable.ic_abap,"ABAP (Advanced Business Application Programming) is the name of SAP’s proprietary, fourth-generation programming language. It was specifically developed to allow the mass-processing of data in SAP business applications. \n" +
+                "\n" +
+                "\n" +
+                "\n" +
+                "By working with ABAP in SAP NetWeaver, companies running the SAP ERP and SAP S/4HANA business solutions have the opportunity to customize those systems to better meet their needs.\n" +
+                "\n" +
+                " \n" +
+                "\n" +
+                "ABAP is a multi-paradigm programming language, meaning programmers can utilize procedural, object-oriented, and other programming principles. While it is SAP’s primary programming language, programs written with ABAP can run alongside those based on other programming languages such as Java, JavaScript, and SAPUI5.\n" +
+                "\n" +
+                " \n" +
+                "\n" +
+                "Table of Contents\n" +
+                "\n" +
+                "A Brief History of ABAP\n" +
+                "New vs. Old ABAP\n" +
+                "When to Use ABAP\n" +
+                "The ABAP Workbench\n" +
+                "ABAP Editor\n" +
+                "ABAP Dictionary\n" +
+                "ABAP Painter\n" +
+                "Function Builder\n" +
+                "Class Builder\n" +
+                "Web Application Builder\n" +
+                "Other Key ABAP Terms\n" +
+                "Additional Resources\n" +
+                "Blog Posts\n" +
+                "Books by SAP PRESS\n" +
+                "Videos\n" +
+                " \n" +
+                "\n" +
+                "A Brief History of ABAP\n" +
+                "ABAP was first introduced by SAP in the 1980s. Throughout the years, various enhancements to the language increased what programmers could do with it. For example, through April 2000 programs could only be created procedurally, meaning a program had to follow a set of pre-defined “procedures” to perform a certain task successfully.\n" +
+                "\n" +
+                " \n" +
+                "\n" +
+                "In May 2000, SAP changed ABAP with release 4.6C, allowing for object-oriented programming (OOP). This programming strategy involves multiple individual “objects” interacting with one another, allowing programs to grow more complex with the use of ABAP design patterns and other OOP practices.\n" +
+                "\n" +
+                " \n" +
+                "\n" +
+                "Evolution of ABAP Coding\n" +
+                "\n" +
+                " \n" +
+                "\n" +
+                "With the release of ABAP 7.4 and 7.5 in the early to mid-2010s, SAP gave object-oriented programmers using ABAP some powerful new features to play around with, vastly reducing the amount of code needed for common tasks. The end result is that code ends up being up to 50% shorter plus both cleaner and clearer—making both programmers and end users’ lives easier.\n" +
+                "\n" +
+                " \n" +
+                "\n" +
+                "Other new features made available to ABAP programmers in the 2010s were extended syntax for Open SQL, ABAP Managed Database Procedures (AMDP), and core data services (CDS) Views.\n" +
+                "\n" +
+                " \n" +
+                "\n" +
+                "Perhaps the biggest and most important change to ABAP programming came with the invention and release of the SAP HANA platform in the summer of 2011. Due to the in-memory architecture of this database, processing that formerly happened on the application layer now could be done on the database layer.\n" +
+                "\n" +
+                " \n" +
+                "\n" +
+                "With the traditional, row-based database architecture of SAP R/3, it was important to have ABAP code run in the application layer rather than the database layer to save memory usage for further tasks. But SAP HANA allowed, and even encouraged, tasks to be completed in real-time by using in-memory technology.\n" +
+                "\n" +
+                " \n" +
+                "\n" +
+                "This meant code could be developed and utilized in the database itself. For companies running the new ERP solution, SAP S/4HANA, this meant a whole slew of new programming opportunities. There are a few things to know when programming ABAP on SAP HANA, but it is very doable and quite powerful.\n" +
+                "\n" +
+                " \n" +
+                "\n" +
+                "During the early 2010s, many developers wondered if ABAP was to become increasingly obsolete as SAP acquired multiple cloud, non-ABAP-based solutions and pivoted existing products towards the cloud. But with the advent of SAP S/4HANA, and more importantly ABAP in the Cloud, the language was given new life, leading many to proclaim “ABAP’s not dead.” Programmers went into the second half of the decade with a clear idea of how to use ABAP to code for SAP S/4HANA, SAP Business Technology Platform, and more.\n" +
+                "\n" +
+                " \n" +
+                "\n" +
+                "These new platforms led to the creation of additional ABAP programming models. The first, the ABAP programming model for SAP Fiori, is used when developing SAP HANA-optimized OData services for SAP Fiori applications. These are based on core data services views and cover three application scenarios: analytical, transaction, and search."),
+        InformationData("Scala",R.drawable.ic_scale,"Introducing Scala\n" +
+                "Does Scala have a better future than any other programming language? Why Java Developer should learn Scala? What is the demand for Scala? Don’t worry we’ll help you understand why Scala has emerged as one of the most powerful Java alternatives in recent times and what made Developers think about Scala?\n" +
+                "\n" +
+                "Scala is a high-caliber programming language that changed the world of big data. It is a general-purpose, functional and object-oriented programming language that helps both object-oriented and functional styles of programming on a larger scale. Scala is a strong and static type language. If you are looking for a technique that can simplify your code easily then Scala is one of the great choices you can opt for. One of the best advantages of Scala for developers is, it reduces the burden by reducing the code snippets to two to three times compared to other application platforms.\n" +
+                "\n" +
+                "Let’s understand how Scala came into existence\n" +
+                "\n" +
+                "History of Scala\n" +
+                "Scala is a programming language created by developed by  Martin Odersky in the year 2001.\n" +
+                "The language was first released internally in the year 2003 later it was officially released on January 20, 2004. Scala language was formally released on the platforms of Java, and .Net in the month of June 2004. Scala 2.0 version was released in Mach 2006. In the year 2011 Typesafe launched to provide commercial support training, services for Scala. These developments led towards the formal cessation of the .Net support in the year 2012. The team Scala has won a five-year research grant of over €2.3 million from the European Research Council.\n" +
+                "\n" +
+                "History of Scala\n" +
+                "\n" +
+                "Features of Scala\n" +
+                "Like other languages, even Scala has its own features. Its operational characteristics are the same as Java’s. Let’s understand the different features of Scala.\n" +
+                "\n" +
+                "Features of Scala\n" +
+                "\n" +
+                "Scala is Object-Oriented\n" +
+                "Scala is functional\n" +
+                "Marketable\n" +
+                "Scala is Extensible\n" +
+                "Expressiveness\n" +
+                "Scala runs on the JVM\n" +
+                "Scala can execute Java Code\n" +
+                "Let’s understand each of these clearly\n" +
+                "\n" +
+                "1. Scala is Object-Oriented\n" +
+                "Scala is an object-oriented programming language like Python, Ruby, Java, Smalltalk, etc. It is a pure object-oriented language, it means that every value is an object. The Behavior of objects and Types and are described by classes and traits.\n" +
+                "\n" +
+                "2. Scala is functional\n" +
+                "It means that every function in Scala is a value and every value is an object, which makes every function an object. Scala provides a lightweight syntax for defining anonymous functions.\n" +
+                "\n" +
+                "3. Marketable\n" +
+                "Yes, Scala is Marketable.  Learning Scala will surely make you more marketable. These days many top companies are moving to Scala.\n" +
+                "\n" +
+                "4. Expressiveness\n" +
+                "Scala is inherently very expressive. There are tons and tons of useful code in Scala. This is attracting more and more Java developers to learn Scala who is willing to write beautiful and clean code.\n" +
+                "\n" +
+                "5. Multi-Paradigm Language\n" +
+                "Scala supports two programming paradigms like Object-oriented programming (OOP) and Functional programming (FP). It provides you a chance to explore both the languages. This combination of features will help you write Scala programs that are quite compact and simple.\n" +
+                "\n" +
+                "6. Scala runs on the JVM\n" +
+                "Java is compiled into Java Byte Code which is executed by the Java Virtual Machine (JVM). It means that both Java and Scala have a common runtime platform.\n" +
+                "\n" +
+                "7. Scala can execute Java Code\n" +
+                "Just simple, it allows you to use all the classes of the Java SDK and also your favorite java open source projects.\n" +
+                "\n" +
+                "Frameworks for Scala\n" +
+                "Scala is a powerful language that has gained popularity among many developers. It enables developers to develop cutting edge applications that are less costly to maintain and easier to scale. Scala frameworks will help you in selecting the right technologies for solving your project tasks.\n" +
+                "\n" +
+                "Following is the list of different Scala frameworks:\n" +
+                "\n" +
+                "Frameworks for Scala\n" +
+                "\n" +
+                "Play\n" +
+                "Finch\n" +
+                "Akka HTTP\n" +
+                "Chaos\n" +
+                "Lift\n" +
+                "ScalaQuery\n" +
+                "BlueEyes\n" +
+                "Slick\n" +
+                "Let’s understand a few main frameworks\n" +
+                "\n" +
+                "1. Play\n" +
+                "Play is an open-source web application framework released in 2007. This high-velocity framework will allow developers to build highly scalable web applications written in Scala. Applications built with Play deliver all of the benefits of Reactive systems including a high degree of responsiveness, resilience, and elasticity. It is currently used by some large websites like Samsung’s IoT Artik platform, LinkedIn, etc.\n" +
+                "\n" +
+                "2. Finch\n" +
+                "Finch is a modular system of HTTP primitives centered upon the concept of composability. Its purpose is to provide developers simple and robust HTTP primitives. Finch is very fast and highly functional for a variety of systems.\n" +
+                "\n" +
+                "3. Akka:\n" +
+                "Akka is a free and open-source toolkit and runtime, good with distributed processing. It was created for building distributed and resilient message-driven applications. Since the Akka ecosystem is immense it provides a wide range of tools for various purposes like Akka Actors, Akka HTTP, etc.\n" +
+                "\n" +
+                "4. Akka HTTP\n" +
+                "Akka HTTP is a modern toolkit for building integration layers. It provides tools for building integration layers rather than application cores. This Akka HTTP tool is mostly used in high load environments.\n" +
+                "\n" +
+                "5. Lift\n" +
+                "Lift is a highly secure and scalable framework designed to address a multitude of security concerns including code injection and cross-site scripting. It was created by David Pollak since he was dissatisfied with some aspects of Ruby on Rails.\n" +
+                "\n" +
+                "6. Slick\n" +
+                "Slick is a modern database query and access library for Scala. It is designed to connect to databases and sources. Slick helps in simplifying the process of building next-generation distributed applications using Scala.\n" +
+                "\n" +
+                "Applications of Scala\n" +
+                "Scala is a general-purpose computer language that widely supports the object and functional style of programming. Using Scala, you can create any type of application in less time. It has the capability to support multiple functionalities Below are the few areas where Scala can be applied.\n" +
+                "\n" +
+                "It supports both front and back ends of a web application with scala.js\n" +
+                "Big Data and data analysis with Apache Spark\n" +
+                "Scala can be used to create Android Applications\n" +
+                "Highly concurrent things, like messaging apps, with Akka\n" +
+                "Scala is also applied in Hadoop\n" +
+                "Parallel batch processing\n" +
+                "Desktop Applications can be created using Scala\n" +
+                "Concurrency and distributed application\n" +
+                "1. Front and back ends of a web application with scala.js\n" +
+                "Scala is used for designing Web Applications and Web Pages. Scala.js is an implementation of Scala which gathers Scala code to JavaScript. It supports full bilateral interoperability between Scala and Javascript code and hence it allows us to develop front-end web applications in Java using Javascript libraries and frameworks.\n" +
+                "\n" +
+                "2. Android Applications\n" +
+                "Scala can be used to build Android Applications. In order to develop Android applications in Scala, you need a minimum set of tools like Android SDK and Homebrew. Scala is easy to use for existing and newly created Android projects and the apps written using Scala is lightweight and start at 30kb.\n" +
+                "\n" +
+                "3. Desktop Applications\n" +
+                "When you want to develop desktop applications you need to make sure you have the right framework that is going to work for you. There are several options out there, Scala is one among them.\n" +
+                "\n" +
+                "4. Scala is used with Hadoop\n" +
+                "Scala is used in some of the Hadoop ecosystem components like Apache Kafka, Apache Spark. Obviously, it will be really useful for someone to develop applications using Scala that uses Hadoop and ecosystem projects.\n" +
+                "\n" +
+                "We use Scala due to the factor that it is faster than Java. The central drive behind Scala is to make life easier and more productive for the programmer.\n" +
+                "\n" +
+                "Technologies built using Scala\n" +
+                "Technologies built using Scala\n" +
+                "\n" +
+                "Apache Smaza\n" +
+                "Finagle\n" +
+                "Akka\n" +
+                "Lichess\n" +
+                "Scalding\n" +
+                "Apache Spark\n" +
+                "Learn more about different technologies built using Scala  here.\n" +
+                "\n" +
+                "Career in Scala\n" +
+                "Scala has been gradually gaining popularity in recent times, some of the world’s best-known web platforms have switched to Scala. According to  Indeed, Scala is in the 12th place in terms of the most demanded languages. Very few developers know how to work with Scala. It is the best-suited technology for aspiring software professionals like Data Scientists, Data Engineers, etc. People who know Scala can enjoy a great career as Scala Developer.\n" +
+                "\n" +
+                "Different Scala Job Roles\n" +
+                "Software Engineer\n" +
+                "Senior Software Engineer\n" +
+                "Software Developer\n" +
+                "Application Developer\n" +
+                "IT Consultant"),
     )
 
     override fun getAllList(): Flow<List<InformationData>> = flow {
@@ -1516,7 +2835,7 @@ class AppRepositoryImpl @Inject constructor() : AppRepository {
 
     override fun getByNumberList(count: Int): Flow<ArrayList<InformationData>> = flow {
         val ls = ArrayList<InformationData>()
-        if (count == 5) {
+        if (count == 8) {
             ls.addAll(list.shuffled().subList(0, count))
         } else {
             ls.addAll(list.subList(0, count))

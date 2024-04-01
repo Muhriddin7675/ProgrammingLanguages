@@ -37,20 +37,27 @@ class ScreenMain : Fragment(R.layout.screen_main) {
     private var currentQuery: String? = null
     private val adapterTop by lazy { MainTopAdapter() }
     private val adapterAll by lazy { MainAllAdapter() }
+    private var time = System.currentTimeMillis()
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         load()
         binding.rvListTop.adapter = adapterTop
         binding.rvListTop.layoutManager =
             LinearLayoutManager(requireContext(), RecyclerView.HORIZONTAL, false)
         adapterTop.setOnClickItem {
-            findNavController().navigate(ScreenMainDirections.actionScreenMainToScreenInfo(it))
+            if (System.currentTimeMillis() - time > 500) {
+                findNavController().navigate(ScreenMainDirections.actionScreenMainToScreenInfo(it))
+            }
+            time = System.currentTimeMillis()
         }
 
         binding.rvList.adapter = adapterAll
         binding.rvList.layoutManager = LinearLayoutManager(requireContext())
 
         adapterAll.setOnClickItem {
-            findNavController().navigate(ScreenMainDirections.actionScreenMainToScreenInfo(it))
+            if (System.currentTimeMillis() - time > 500) {
+                findNavController().navigate(ScreenMainDirections.actionScreenMainToScreenInfo(it))
+            }
+            time = System.currentTimeMillis()
         }
         viewModule.submitListAll
             .onEach {
@@ -69,7 +76,7 @@ class ScreenMain : Fragment(R.layout.screen_main) {
         binding.linearLayoutBack.setOnClickListener {
             MyShared.setBoolean(false)
             isHasVisibility(true)
-            viewModule.getByCountList(5)
+            viewModule.getByCountList(8)
             viewModule.getByCountListTop(10)
         }
 
@@ -103,19 +110,24 @@ class ScreenMain : Fragment(R.layout.screen_main) {
             binding.searchView.clearFocus()
         }
 
+
+
         val callback = object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {
                 AlertDialog.Builder(requireContext())
                     .setTitle("Exit")
                     .setMessage("Do you want to exit the info programming application?")
-                    .setNegativeButton("No") { dialog, which -> }
-                    .setPositiveButton("Yes") { dialog, which ->
+                    .setNegativeButton("No"){_,_ ->
+                    }
+                    .setPositiveButton("Yes") { _, _ ->
                         requireActivity().finish()
-                    }.create().show()
+                    }
+
+                    .show()
             }
         }
 
-        requireActivity().onBackPressedDispatcher.addCallback(callback)
+        requireActivity().onBackPressedDispatcher.addCallback(viewLifecycleOwner, callback)
 
         binding.btnDispatcher.setOnClickListener {
             openTelegram()
@@ -136,20 +148,18 @@ class ScreenMain : Fragment(R.layout.screen_main) {
             isHasVisibility(false)
         } else {
             isHasVisibility(true)
-            viewModule.getByCountList(5)
+            viewModule.getByCountList(8)
             viewModule.getByCountListTop(10)
         }
     }
     fun openTelegram() {
-        val telegramUri = Uri.parse("https://t.me/muhriddin7675") // Replace "your_telegram_channel" with the desired Telegram channel or username
+        val telegramUri = Uri.parse("https://t.me/muhriddin7675")
         val intent = Intent(Intent.ACTION_VIEW, telegramUri)
 
-        // Check if there is an app to handle this intent
-        if (intent.resolveActivity(requireContext().packageManager) != null) {
+       if (intent.resolveActivity(requireContext().packageManager) != null) {
             startActivity(intent)
         } else {
-            // Handle case when no application can handle the intent
-            // For example, you can open Telegram in a web browser
+
             val webIntent = Intent(Intent.ACTION_VIEW, telegramUri)
             startActivity(webIntent)
         }
