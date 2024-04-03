@@ -47,7 +47,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="320dp"
                 android:scaleType="centerCrop"
-                android:padding="32dp"
+                android:padding="72dp"
                 android:src="@drawable/kitob1"
                 app:layout_constraintTop_toTopOf="parent"
                 android:background="@color/white"

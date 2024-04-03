@@ -116,7 +116,7 @@ class ScreenMain : Fragment(R.layout.screen_main) {
             override fun handleOnBackPressed() {
                 AlertDialog.Builder(requireContext())
                     .setTitle("Exit")
-                    .setMessage("Do you want to exit the info programming application?")
+                    .setMessage("Do you want to exit the programming languages?")
                     .setNegativeButton("No"){_,_ ->
                     }
                     .setPositiveButton("Yes") { _, _ ->

@@ -1168,13 +1168,11 @@ class AppRepositoryImpl @Inject constructor() : AppRepository {
                 "RELATED READING FROM BUILT IN EXPERTS\n" +
                 "Gems in Ruby on Rails and How to Find Them\n" +
                 "\n" +
-                " \n" +
-                "\n" +
+
                 "When Do I Use the Ruby Programming Language?\n" +
                 "Ruby is a multi-purpose programming language used in many subfields of software development. Here are the most notable Ruby use cases.\n" +
                 "\n" +
-                " \n" +
-                "\n" +
+
                 "WEB DEVELOPMENT\n" +
                 "One of the main reasons Ruby is such a popular programming language is thanks to the Ruby on Rails framework that revolutionized web development. \n" +
                 "\n" +
@@ -1182,15 +1180,13 @@ class AppRepositoryImpl @Inject constructor() : AppRepository {
                 "\n" +
                 "\n" +
                 "Ruby in 100 Seconds. | Video: Fireship\n" +
-                " \n" +
-                "\n" +
+
                 "STATIC SITE GENERATION\n" +
                 "When you visit a typical web page, the website uses server-side code that generates the HTML content it serves to your browser. This means there’s no HTML file behind the URL you visit. This type of HTML generation is usually not the fastest way to serve web files to clients. It’s more effective to use a state website generator like Jekyll, one of the most popular static site generators, which is written in Ruby.\n" +
                 "\n" +
                 "A static website generator uses code to generate all the web pages at once. Those pages will then live on a server and once you visit the site, you get a static HTML file. This makes websites efficient, secure and easy to deploy. A static website generator is ideal for websites whose content doesn’t change that often.\n" +
                 "\n" +
-                " \n" +
-                "\n" +
+
                 "DEVOPS AND AUTOMATION\n" +
                 "Ruby is a popular programming language in DevOps, automation and website deployment.\n" +
                 "\n" +
@@ -1198,29 +1194,25 @@ class AppRepositoryImpl @Inject constructor() : AppRepository {
                 "\n" +
                 "Vagrant, a popular virtual machine management system, is also written in Ruby. With Vagrant, developers can run operating system-specific software on any operating system. For example, a developer can turn a Linux-only service into a Mac-executable format.\n" +
                 "\n" +
-                " \n" +
-                "\n" +
+
                 "WEB SERVERS\n" +
                 "Ruby is a popular programming language for building web servers. The popular web application servers Passenger and Puma both support Ruby. These web application servers process HTTP requests, manage processes and resources, and allow for monitoring and diagnosing problems.\n" +
                 "\n" +
                 "MORE FROM ARTTURI JALLI\n" +
                 "What Is the @ Symbol in Python and How Do I Use It?\n" +
                 "\n" +
-                " \n" +
-                "\n" +
+
                 "DATA PROCESSING\n" +
                 "Ruby is a great language for data processing, thanks in part to the language’s readable syntax. Ruby also has several other powerful built-in functions, such as map, reduce and select. These functions are great for easy data processing, cleaning and filtering.\n" +
                 "\n" +
-                " \n" +
-                "\n" +
+
                 "WEB SCRAPING\n" +
                 "Ruby comes with packages, such as Vessel, that make parsing web data easy. With Vessel, you can write Ruby scripts that crawl and download web pages in a breeze. To then parse the crawled HTML content, you can use another popular Ruby library, Nokogiri. With this library, you can prepare the crawled data for new HTML or XML objects or to perform data analysis, such as building a machine learning model based on crawled data.\n" +
                 "\n" +
                 "Find out who's hiring.\n" +
                 "See all Developer + Engineer jobs at top tech companies & startups\n" +
                 "VIEW 9552 JOBS\n" +
-                " \n" +
-                "\n" +
+
                 "Ruby vs. Python: Which Is Better?\n" +
                 "Ruby is a great multi-purpose programming language and more popular among web developers, whereas Python is the de facto general-purpose language today.\n" +
                 "\n" +
@@ -2036,11 +2028,9 @@ class AppRepositoryImpl @Inject constructor() : AppRepository {
                 "\n" +
                 "The evolution: From VB to VB.NET \n" +
                 "The evolution of Visual Basic is a fascinating journey of technological advancements, adapting to changing paradigms, and meeting the ever-evolving needs of developers. A pivotal chapter in this saga is the transition from the classic Visual Basic to its modern-day counterpart, VB.NET. \n" +
-                " \n" +
-                "\n" +
+
                 "The evolution From VB to VB.NET\n" +
-                " \n" +
-                "\n" +
+
                 "Embracing the .NET framework \n" +
                 "The dawn of the 21st century was marked by a watershed moment in Microsoft's software development narrative - the advent of the .NET framework. This revolutionary platform was envisioned as the next big leap, providing a cohesive, integrated environment for developing both web-centric and Windows-centric applications. Visual Basic, with its established legacy, was prime for adaptation into this new age. The outcome of this was VB.NET, a version of Visual Basic reimagined, redesigned, and reborn to be in perfect harmony with the .NET ecosystem. \n" +
                 "\n" +
@@ -2059,11 +2049,9 @@ class AppRepositoryImpl @Inject constructor() : AppRepository {
                 "\n" +
                 "Practical applications of Visual Basic \n" +
                 "The legacy of Visual Basic (VB) stands as a testament to its adaptability, efficiency, and user-centric design. Over the decades, its impact and imprint can be observed in a multitude of sectors, underscoring its broad-based appeal and proficiency. Let's journey through some of the key domains where VB has left an indelible mark:\n" +
-                " \n" +
-                "\n" +
+
                 "Practical applications of Visual Basic\n" +
-                " \n" +
-                "\n" +
+
                 "Visual Basic in desktop applications \n" +
                 "At its core, Visual Basic was conceived with the vision of simplifying and democratising Windows desktop application development. This vision was realised to its fullest. From creating elementary tools, such as calculators and notepads, to architecting advanced systems like CRM software or intricate database management platforms, VB's footprint is widespread.  \n" +
                 "\n" +
@@ -2095,11 +2083,9 @@ class AppRepositoryImpl @Inject constructor() : AppRepository {
                 "\n" +
                 "Integration capabilities \n" +
                 "Beyond its inherent features, VB's ability to integrate with other systems and platforms further amplifies its relevance. Be it databases, web services, or third-party tools, VB's robust integration frameworks ensure that it can function harmoniously within heterogeneous tech environments, making it a versatile choice for varied projects. \n" +
-                " \n" +
-                "\n" +
+
                 "Visual Basic For Applications VBA Training\n" +
-                " \n" +
-                "\n" +
+
                 "Conclusion \n" +
                 "As we conclude this blog on What is Visual Basic, its definition can be summed up as a Microsoft innovation that reshaped software development. VB has made it more intuitive and accessible for beginners. Its legacy as a pioneer in visual programming endures despite the evolution of newer coding languages. \n" +
                 "\n" +
@@ -2632,16 +2618,13 @@ class AppRepositoryImpl @Inject constructor() : AppRepository {
                 "Evidently, the uses of Julia are significant. Although it’s far from an immediate replacement for Python or R in the field of data science, given how established the latter are, it certainly has the potential to expand your repertoire. Those interested in learning Julia should start with our Introduction to Julia course, which will take you through the key features of this rapidly developing language. You can also find our Julia cheat sheet, which gives a handy reference for the basics of Julia. "),
         InformationData("ABAP",R.drawable.ic_abap,"ABAP (Advanced Business Application Programming) is the name of SAP’s proprietary, fourth-generation programming language. It was specifically developed to allow the mass-processing of data in SAP business applications. \n" +
                 "\n" +
-                "\n" +
-                "\n" +
+
                 "By working with ABAP in SAP NetWeaver, companies running the SAP ERP and SAP S/4HANA business solutions have the opportunity to customize those systems to better meet their needs.\n" +
                 "\n" +
-                " \n" +
-                "\n" +
+
                 "ABAP is a multi-paradigm programming language, meaning programmers can utilize procedural, object-oriented, and other programming principles. While it is SAP’s primary programming language, programs written with ABAP can run alongside those based on other programming languages such as Java, JavaScript, and SAPUI5.\n" +
                 "\n" +
-                " \n" +
-                "\n" +
+
                 "Table of Contents\n" +
                 "\n" +
                 "A Brief History of ABAP\n" +
@@ -2659,45 +2642,35 @@ class AppRepositoryImpl @Inject constructor() : AppRepository {
                 "Blog Posts\n" +
                 "Books by SAP PRESS\n" +
                 "Videos\n" +
-                " \n" +
-                "\n" +
+
                 "A Brief History of ABAP\n" +
                 "ABAP was first introduced by SAP in the 1980s. Throughout the years, various enhancements to the language increased what programmers could do with it. For example, through April 2000 programs could only be created procedurally, meaning a program had to follow a set of pre-defined “procedures” to perform a certain task successfully.\n" +
                 "\n" +
-                " \n" +
-                "\n" +
+
                 "In May 2000, SAP changed ABAP with release 4.6C, allowing for object-oriented programming (OOP). This programming strategy involves multiple individual “objects” interacting with one another, allowing programs to grow more complex with the use of ABAP design patterns and other OOP practices.\n" +
                 "\n" +
-                " \n" +
-                "\n" +
+
                 "Evolution of ABAP Coding\n" +
                 "\n" +
-                " \n" +
-                "\n" +
+
                 "With the release of ABAP 7.4 and 7.5 in the early to mid-2010s, SAP gave object-oriented programmers using ABAP some powerful new features to play around with, vastly reducing the amount of code needed for common tasks. The end result is that code ends up being up to 50% shorter plus both cleaner and clearer—making both programmers and end users’ lives easier.\n" +
                 "\n" +
-                " \n" +
-                "\n" +
+
                 "Other new features made available to ABAP programmers in the 2010s were extended syntax for Open SQL, ABAP Managed Database Procedures (AMDP), and core data services (CDS) Views.\n" +
                 "\n" +
-                " \n" +
-                "\n" +
+
                 "Perhaps the biggest and most important change to ABAP programming came with the invention and release of the SAP HANA platform in the summer of 2011. Due to the in-memory architecture of this database, processing that formerly happened on the application layer now could be done on the database layer.\n" +
                 "\n" +
-                " \n" +
-                "\n" +
+
                 "With the traditional, row-based database architecture of SAP R/3, it was important to have ABAP code run in the application layer rather than the database layer to save memory usage for further tasks. But SAP HANA allowed, and even encouraged, tasks to be completed in real-time by using in-memory technology.\n" +
                 "\n" +
-                " \n" +
-                "\n" +
+
                 "This meant code could be developed and utilized in the database itself. For companies running the new ERP solution, SAP S/4HANA, this meant a whole slew of new programming opportunities. There are a few things to know when programming ABAP on SAP HANA, but it is very doable and quite powerful.\n" +
                 "\n" +
-                " \n" +
-                "\n" +
+
                 "During the early 2010s, many developers wondered if ABAP was to become increasingly obsolete as SAP acquired multiple cloud, non-ABAP-based solutions and pivoted existing products towards the cloud. But with the advent of SAP S/4HANA, and more importantly ABAP in the Cloud, the language was given new life, leading many to proclaim “ABAP’s not dead.” Programmers went into the second half of the decade with a clear idea of how to use ABAP to code for SAP S/4HANA, SAP Business Technology Platform, and more.\n" +
                 "\n" +
-                " \n" +
-                "\n" +
+
                 "These new platforms led to the creation of additional ABAP programming models. The first, the ABAP programming model for SAP Fiori, is used when developing SAP HANA-optimized OData services for SAP Fiori applications. These are based on core data services views and cover three application scenarios: analytical, transaction, and search."),
         InformationData("Scala",R.drawable.ic_scale,"Introducing Scala\n" +
                 "Does Scala have a better future than any other programming language? Why Java Developer should learn Scala? What is the demand for Scala? Don’t worry we’ll help you understand why Scala has emerged as one of the most powerful Java alternatives in recent times and what made Developers think about Scala?\n" +
