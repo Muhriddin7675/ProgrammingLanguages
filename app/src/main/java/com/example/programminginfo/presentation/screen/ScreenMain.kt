@@ -76,7 +76,7 @@ class ScreenMain : Fragment(R.layout.screen_main) {
         binding.linearLayoutBack.setOnClickListener {
             MyShared.setBoolean(false)
             isHasVisibility(true)
-            viewModule.getByCountList(8)
+            viewModule.getByCountList(5)
             viewModule.getByCountListTop(10)
         }
 
@@ -148,7 +148,7 @@ class ScreenMain : Fragment(R.layout.screen_main) {
             isHasVisibility(false)
         } else {
             isHasVisibility(true)
-            viewModule.getByCountList(8)
+            viewModule.getByCountList(5)
             viewModule.getByCountListTop(10)
         }
     }

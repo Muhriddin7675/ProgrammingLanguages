@@ -2835,8 +2835,8 @@ class AppRepositoryImpl @Inject constructor() : AppRepository {
 
     override fun getByNumberList(count: Int): Flow<ArrayList<InformationData>> = flow {
         val ls = ArrayList<InformationData>()
-        if (count == 8) {
-            ls.addAll(list.shuffled().subList(0, count))
+        if (count == 5) {
+            ls.addAll(list.subList(10, count+10))
         } else {
             ls.addAll(list.subList(0, count))
         }

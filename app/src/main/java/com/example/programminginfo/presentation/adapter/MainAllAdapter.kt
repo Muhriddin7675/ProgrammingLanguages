@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
+import com.bumptech.glide.Glide
 import com.example.programminginfo.data.InformationData
 import com.example.programminginfo.databinding.ItemAllBinding
 
@@ -37,7 +38,10 @@ class MainAllAdapter : ListAdapter<InformationData, MainAllAdapter.MainAllViewHo
         }
 
         fun bind(data: InformationData) {
-            binding.image.setImageResource(data.image)
+//            binding.image.setImageResource(data.image)
+            Glide.with(binding.root)
+                .load(data.image)
+                .into(binding.image)
             binding.textName.text = data.name
             binding.textDescreption.text = data.description
         }

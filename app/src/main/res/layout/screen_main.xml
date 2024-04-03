@@ -16,7 +16,7 @@
         android:id="@+id/image"
         android:layout_width="42dp"
         android:layout_height="42dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="12dp"
         android:src="@drawable/app_icon"
         app:layout_constraintBottom_toBottomOf="@id/view_status_bar"
         app:layout_constraintStart_toStartOf="@id/view_status_bar"
@@ -26,7 +26,7 @@
         android:id="@+id/btn_dispatcher"
         android:layout_width="36dp"
         android:layout_height="30dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginEnd="16dp"
         android:background="?android:selectableItemBackgroundBorderless"
         android:src="@drawable/ic_dispatchers"
         app:layout_constraintBottom_toBottomOf="@id/view_status_bar"
@@ -50,7 +50,7 @@
         android:id="@+id/linear"
         android:layout_width="0dp"
         android:layout_height="50dp"
-        android:layout_marginHorizontal="16dp"
+        android:layout_marginHorizontal="12dp"
         android:layout_marginVertical="8dp"
         android:background="@drawable/bg_search"
         android:orientation="vertical"
@@ -70,6 +70,162 @@
             app:searchIcon="@drawable/ic_search"
             app:showDividers="middle" />
     </LinearLayout>
+
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_marginTop="12dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/linear">-->
+
+<!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/text_top"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="12dp"-->
+<!--                    android:layout_marginTop="8dp"-->
+<!--                    android:fontFamily="@font/nunito_extrabold"-->
+<!--                    android:text="Top 10 programming languages"-->
+<!--                    android:textColor="@color/white"-->
+<!--                    android:textSize="20sp"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_goneMarginStart="16dp"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    />-->
+
+<!--                <androidx.recyclerview.widget.RecyclerView-->
+<!--                    android:id="@+id/rv_list_top"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:paddingHorizontal="4dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"-->
+<!--                    app:layout_constraintHorizontal_bias="0.0"-->
+<!--                    app:layout_constraintLeft_toLeftOf="parent"-->
+<!--                    app:layout_constraintRight_toRightOf="parent"-->
+<!--                    app:layout_constraintTop_toBottomOf="@id/text_top"-->
+<!--                    tools:itemCount="10"-->
+<!--                    tools:listitem="@layout/item_top" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/text_All"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_marginTop="4dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="12dp"-->
+<!--                    android:fontFamily="@font/nunito_extrabold"-->
+<!--                    android:paddingVertical="8dp"-->
+<!--                    android:text="Programming languages"-->
+<!--                    android:textColor="@color/white"-->
+<!--                    android:textSize="20sp"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toBottomOf="@id/rv_list_top"-->
+<!--                    app:layout_goneMarginStart="16dp" />-->
+
+<!--                <androidx.recyclerview.widget.RecyclerView-->
+<!--                    android:id="@+id/rv_list"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="4dp"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintLeft_toLeftOf="parent"-->
+<!--                    app:layout_constraintRight_toRightOf="parent"-->
+<!--                    app:layout_constraintTop_toBottomOf="@id/text_All"-->
+<!--                    tools:itemCount="4"-->
+<!--                    tools:listitem="@layout/item_all" />-->
+
+<!--                <LinearLayout-->
+<!--                    android:id="@+id/linearLayoutAll"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginEnd="30dp"-->
+<!--                    android:background="@drawable/bg_item_color"-->
+<!--                    android:backgroundTint="#108EF3"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    app:layout_constraintBottom_toBottomOf="@id/text_All"-->
+<!--                    app:layout_constraintEnd_toEndOf="@id/text_All"-->
+<!--                    app:layout_constraintHorizontal_bias="0.92"-->
+<!--                    app:layout_constraintTop_toTopOf="@id/text_All">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/btn_all_text"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:fontFamily="@font/nunito_semi_bold"-->
+<!--                        android:paddingVertical="6dp"-->
+<!--                        android:paddingStart="16dp"-->
+<!--                        android:paddingEnd="10dp"-->
+<!--                        android:text="@string/all"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:textSize="10sp" />-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/btn_all_icon"-->
+<!--                        android:layout_width="16dp"-->
+<!--                        android:layout_height="16dp"-->
+<!--                        android:layout_gravity="center_vertical"-->
+<!--                        android:layout_marginEnd="8dp"-->
+<!--                        android:rotation="180"-->
+<!--                        android:src="@drawable/ic_al"-->
+<!--                        app:layout_constraintBottom_toBottomOf="@id/btn_all_text"-->
+<!--                        app:layout_constraintEnd_toEndOf="@id/btn_all_text"-->
+<!--                        app:layout_constraintStart_toStartOf="@id/btn_all_text"-->
+<!--                        app:layout_constraintTop_toTopOf="@id/btn_all_text" />-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:id="@+id/linearLayoutBack"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginEnd="30dp"-->
+<!--                    android:background="@drawable/bg_item_color"-->
+<!--                    android:backgroundTint="#108EF3"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:visibility="gone"-->
+<!--                    app:layout_constraintBottom_toBottomOf="@id/text_All"-->
+<!--                    app:layout_constraintEnd_toEndOf="@id/text_All"-->
+<!--                    app:layout_constraintHorizontal_bias="0.92"-->
+<!--                    app:layout_constraintTop_toTopOf="@id/text_All">-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/btn_Back_icon"-->
+<!--                        android:layout_width="16dp"-->
+<!--                        android:layout_height="16dp"-->
+<!--                        android:layout_gravity="center_vertical"-->
+<!--                        android:layout_marginStart="8dp"-->
+<!--                        android:src="@drawable/ic_al"-->
+<!--                        app:layout_constraintBottom_toBottomOf="@id/btn_all_text"-->
+<!--                        app:layout_constraintEnd_toEndOf="@id/btn_all_text"-->
+<!--                        app:layout_constraintStart_toStartOf="@id/btn_all_text"-->
+<!--                        app:layout_constraintTop_toTopOf="@id/btn_all_text" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/btn_Back_text"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:fontFamily="@font/nunito_semi_bold"-->
+<!--                        android:paddingVertical="6dp"-->
+<!--                        android:paddingStart="10dp"-->
+<!--                        android:paddingEnd="10dp"-->
+<!--                        android:text="@string/back"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:textSize="10sp" />-->
+
+<!--                </LinearLayout>-->
+
+
+
+<!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--    </ScrollView>-->
+
 
     <TextView
         android:id="@+id/text_top"
@@ -91,6 +247,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:paddingHorizontal="4dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
